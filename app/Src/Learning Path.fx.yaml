@@ -96,7 +96,6 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
             Height: =28
             OnSelect: =Select(Parent)
             Size: =18
@@ -146,4 +145,22 @@
             X: =57
             Y: =92
             ZIndex: =7
+
+        Label7_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =36
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: =ThisItem.PG1.Name
+            Width: =300
+            X: =285
+            Y: =130
+            ZIndex: =8
 
