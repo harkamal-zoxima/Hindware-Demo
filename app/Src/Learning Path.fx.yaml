@@ -69,23 +69,24 @@
 
     Gallery11 As gallery.variableTemplateHeightGallery:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Height: =854
+        Height: =934
         Items: =Learnings
         Layout: =Layout.Vertical
-        TemplateSize: =288
+        ShowScrollbar: =false
+        TemplateSize: =266
         Y: =79
         ZIndex: =5
 
         HtmlText1_31 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
             DisplayMode: =DisplayMode.View
-            Height: =262
+            Height: =252
             HtmlText: |
                 ="<div style='margin:10px;width:580px;height:220px;background-color:#;box-shadow:0 3px 6px 1px  #ccc; border-radius:50px'></div>"
             OnSelect: =Select(Parent)
             Width: =610
             X: =20
-            Y: =26
+            Y: =5
             ZIndex: =1
 
         Label7 As label:
@@ -102,7 +103,7 @@
             Text: ="Product Name"
             Width: =235
             X: =285
-            Y: =91
+            Y: =81
             ZIndex: =2
 
         Label7_12 As label:
@@ -118,8 +119,8 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.ID
             Width: =139
-            X: =446
-            Y: =49
+            X: =285
+            Y: =155
             ZIndex: =4
 
         HtmlText1_32 As htmlViewer:
@@ -131,7 +132,7 @@
             OnSelect: =Select(Parent)
             Width: =243
             X: =42
-            Y: =76
+            Y: =65
             ZIndex: =5
 
         Video2 As videoPlayback:
@@ -143,14 +144,14 @@
             Media: =ThisItem.Link
             Width: =185
             X: =57
-            Y: =92
+            Y: =81
             ZIndex: =7
 
         Label7_1 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -161,6 +162,23 @@
             Text: =ThisItem.PG1.Name
             Width: =300
             X: =285
-            Y: =130
+            Y: =102
             ZIndex: =8
+
+        Label7_13 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =28
+            OnSelect: =Select(Parent)
+            Size: =18
+            Text: ="Product Id"
+            Width: =235
+            X: =285
+            Y: =136
+            ZIndex: =9
 
