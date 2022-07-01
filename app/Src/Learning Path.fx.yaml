@@ -73,7 +73,7 @@
         Items: =Learnings
         Layout: =Layout.Vertical
         ShowScrollbar: =false
-        TemplateSize: =266
+        TemplateSize: =236
         Y: =79
         ZIndex: =5
 
@@ -89,23 +89,6 @@
             Y: =5
             ZIndex: =1
 
-        Label7 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Height: =28
-            OnSelect: =Select(Parent)
-            Size: =18
-            Text: ="Product Name"
-            Width: =235
-            X: =285
-            Y: =81
-            ZIndex: =2
-
         Label7_12 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -117,10 +100,10 @@
             Font: =Font.'Segoe UI'
             Height: =42
             OnSelect: =Select(Parent)
-            Text: =ThisItem.ID
-            Width: =139
+            Text: =ThisItem.PG2.Name
+            Width: =300
             X: =285
-            Y: =155
+            Y: =157
             ZIndex: =4
 
         HtmlText1_32 As htmlViewer:
@@ -155,14 +138,14 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =36
+            FontWeight: =FontWeight.Semibold
+            Height: =64
             OnSelect: =Select(Parent)
-            Size: =15
-            Text: =ThisItem.PG1.Name
+            Size: =18
+            Text: =ThisItem.Product.'Product Name'
             Width: =300
             X: =285
-            Y: =102
+            Y: =65
             ZIndex: =8
 
         Label7_13 As label:
@@ -176,9 +159,9 @@
             Height: =28
             OnSelect: =Select(Parent)
             Size: =18
-            Text: ="Product Id"
-            Width: =235
+            Text: =ThisItem.PG1.Name
+            Width: =328
             X: =285
-            Y: =136
+            Y: =133
             ZIndex: =9
 
