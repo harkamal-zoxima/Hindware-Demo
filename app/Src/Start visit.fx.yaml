@@ -213,14 +213,8 @@
                                 'Job Card' = ClickedVisit.'Job Card'
                             ),
                             Signature: First(MediaUrlVisits).WebUrl,
-                            'Generated Happy OTP': RoundDown(
-                                Rand() * 10000,
-                                0
-                            ),
-                            'Generated Sad OTP': RoundDown(
-                                Rand() * 10000,
-                                0
-                            ),
+                            'Generated Happy OTP': HappyCode,
+                            'Generated Sad OTP':SadCode,
                             'Customer Feedback': Rating1.Value
                         }
                     );
@@ -393,17 +387,25 @@
                     HoverColor: =RGBA(31, 31, 31, 1)
                     HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
                     OnSelect: |
-                        =Gmail.SendEmailV2(
+                        =Set(
+                            HappyCode,
+                            RoundDown(
+                                Rand() * 10000,
+                                0
+                            )
+                        );
+                        Set(
+                            SadCode,
+                            RoundDown(
+                                Rand() * 10000,
+                                0
+                            )
+                        );
+                        Gmail.SendEmailV2(
                             ClickedVisit.Email,
                             {
                                 Subject: "Happy code or Sad code (Hindware)",
-                                Body: "Your OTP for<br>: Happy Code: " & RoundDown(
-                                    Rand() * 10000,
-                                    0
-                                ) & "<br>Sad Code: " & RoundDown(
-                                    Rand() * 10000,
-                                    0
-                                )
+                                Body: "Your OTP for:<br><br> Happy Code: " & HappyCode & "<br>Sad Code: " & SadCode
                             }
                         );
                         Notify(
@@ -429,7 +431,7 @@
                     Y: =484
                     ZIndex: =18
 
-                TextInput1 As text:
+                Otp As text:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
@@ -479,7 +481,10 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(31, 31, 31, 1)
                     HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-                    OnSelect: =Notify("Verification done", NotificationType.Success, 1500)
+                    OnSelect: |-
+                        =Patch()
+                        
+                        Notify("Verification done", NotificationType.Success, 1500)
                     PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
                     PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
@@ -507,7 +512,10 @@
                     HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.Check
-                    OnSelect: =Notify("Verification done", NotificationType.Success, 1500)
+                    OnSelect: |-
+                        =Patch()
+                        
+                        Notify("Verification done", NotificationType.Success, 1500)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                     PressedFill: =RGBA(0, 0, 0, 0)
