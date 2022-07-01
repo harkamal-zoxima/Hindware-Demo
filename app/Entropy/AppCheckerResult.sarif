@@ -2805,6 +2805,166 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 650,
+                  "snippet": {
+                    "text": "OfflineVisits"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist)_1",
+                "type": "'Customer (Dist)_1'.Button2_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "OfflineVisits"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 683,
+                  "snippet": {
+                    "text": "OfflineVisits"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist)_1",
+                "type": "'Customer (Dist)_1'.Button2_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "OfflineVisits"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 674,
+                  "snippet": {
+                    "text": "Defaults(OfflineVisits)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist)_1",
+                "type": "'Customer (Dist)_1'.Button2_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Defaults"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 244,
+                  "charOffset": 634,
+                  "snippet": {
+                    "text": "Patch(\r\n        OfflineVisits,\r\n        Defaults(OfflineVisits),\r\n        {\r\n            'Visit Date': Today(),\r\n            Customer: First(SingleNewVisit).Account,\r\n            'Visit Type': 'Visit Type (Visits_1)'.Unplanned\r\n        }\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist)_1",
+                "type": "'Customer (Dist)_1'.Button2_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "AddComplaints.Button9_5.OnSelect"
                 }
               ],
@@ -10193,32 +10353,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visits.ComboBox1.Items"
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Visits.ComboBox1.Items",
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 12,
-                  "charOffset": 0,
+                  "charLength": 9,
+                  "charOffset": 88,
                   "snippet": {
-                    "text": "Subordinates"
+                    "text": "ComboBox1"
                   }
                 }
               },
               "properties": {
                 "member": "Items",
                 "module": "Visits",
-                "type": "Visits.ComboBox1"
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Subordinates"
+              "ComboBox1"
             ],
             "id": "issue"
           },
@@ -10227,6 +10387,83 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 97,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 80,
+                  "snippet": {
+                    "text": "IsBlank(ComboBox1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -10362,6 +10599,83 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 9,
+                  "charOffset": 701,
+                  "snippet": {
+                    "text": "ComboBox1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ComboBox1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 710,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 21,
                   "charOffset": 719,
                   "snippet": {
@@ -10377,16 +10691,13 @@
             }
           ],
           "message": {
-            "arguments": [
-              "internalemailaddress"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -10563,6 +10874,123 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 9,
+                  "charOffset": 935,
+                  "snippet": {
+                    "text": "ComboBox1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ComboBox1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 944,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 927,
+                  "snippet": {
+                    "text": "IsBlank(ComboBox1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 5,
                   "charOffset": 1190,
                   "snippet": {
@@ -10683,6 +11111,83 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 9,
+                  "charOffset": 1559,
+                  "snippet": {
+                    "text": "ComboBox1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ComboBox1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 1568,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 21,
                   "charOffset": 1577,
                   "snippet": {
@@ -10698,16 +11203,13 @@
             }
           ],
           "message": {
-            "arguments": [
-              "internalemailaddress"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -10875,6 +11377,123 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 133,
+                  "snippet": {
+                    "text": "ComboBox1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5.Button8"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ComboBox1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 142,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5.Button8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 125,
+                  "snippet": {
+                    "text": "IsBlank(ComboBox1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5.Button8"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8.OnSelect"
                 }
               ],
@@ -10989,6 +11608,123 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 132,
+                  "snippet": {
+                    "text": "ComboBox1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5.Button8_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ComboBox1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 141,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5.Button8_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Button8_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 124,
+                  "snippet": {
+                    "text": "IsBlank(ComboBox1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5.Button8_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -26973,36 +27709,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visits.ComboBox1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Visits.ComboBox1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Visits",
-                "type": "Visits.ComboBox1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 14
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.AccessibleLabel"
                 }
               ],
@@ -35943,36 +36649,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visits.OnVisible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Visits.OnVisible",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "OnVisible",
-                "module": "Visits",
-                "type": "Visits"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 20
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'customer info'"
                 }
               ],
@@ -35995,7 +36671,7 @@
             "level": "Medium"
           },
           "ruleId": "app-ScreenHasManyControls",
-          "ruleIndex": 21
+          "ruleIndex": 20
         },
         {
           "locations": [
@@ -36025,7 +36701,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36055,7 +36731,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36085,7 +36761,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36115,7 +36791,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36145,7 +36821,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36175,7 +36851,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36205,7 +36881,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36235,7 +36911,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36265,7 +36941,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36295,7 +36971,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36325,7 +37001,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36355,7 +37031,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36385,7 +37061,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36415,7 +37091,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36445,7 +37121,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36475,7 +37151,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36505,7 +37181,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36535,7 +37211,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36565,7 +37241,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36595,7 +37271,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36625,7 +37301,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36655,7 +37331,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36685,7 +37361,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36715,7 +37391,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36745,7 +37421,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36775,7 +37451,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36805,7 +37481,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36835,7 +37511,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36865,7 +37541,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36895,7 +37571,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36925,7 +37601,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36955,7 +37631,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -36985,7 +37661,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37015,7 +37691,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37045,7 +37721,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37075,7 +37751,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37105,7 +37781,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37135,7 +37811,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37165,7 +37841,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37195,7 +37871,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37225,7 +37901,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37255,7 +37931,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37285,7 +37961,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37315,7 +37991,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37345,7 +38021,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37375,7 +38051,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37405,7 +38081,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37435,7 +38111,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37465,7 +38141,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37495,7 +38171,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37525,7 +38201,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37555,7 +38231,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37585,7 +38261,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37615,7 +38291,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37645,7 +38321,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37675,7 +38351,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37705,7 +38381,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37735,7 +38411,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37765,7 +38441,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37795,7 +38471,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37825,7 +38501,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37855,7 +38531,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37885,7 +38561,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37915,7 +38591,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37945,7 +38621,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -37975,7 +38651,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38005,7 +38681,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38035,7 +38711,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38065,7 +38741,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38095,7 +38771,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38125,7 +38801,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38155,7 +38831,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38185,7 +38861,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38215,7 +38891,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38245,7 +38921,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38275,7 +38951,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38305,7 +38981,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38335,7 +39011,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38365,7 +39041,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38395,7 +39071,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38425,7 +39101,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38455,7 +39131,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38485,7 +39161,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38515,7 +39191,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38545,7 +39221,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38575,7 +39251,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38605,7 +39281,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38635,7 +39311,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38665,7 +39341,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38695,7 +39371,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38725,7 +39401,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38755,7 +39431,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38785,7 +39461,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38815,7 +39491,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38845,7 +39521,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38875,7 +39551,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38905,7 +39581,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38935,7 +39611,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38965,7 +39641,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -38995,7 +39671,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39025,7 +39701,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39055,7 +39731,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39085,7 +39761,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39115,7 +39791,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39145,7 +39821,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39175,7 +39851,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39205,7 +39881,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39235,7 +39911,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39265,7 +39941,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39295,7 +39971,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39325,7 +40001,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39355,7 +40031,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39385,7 +40061,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39415,7 +40091,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39445,7 +40121,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39475,7 +40151,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39505,7 +40181,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39535,7 +40211,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39565,7 +40241,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39595,7 +40271,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39625,7 +40301,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39655,7 +40331,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39685,7 +40361,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39715,7 +40391,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39745,7 +40421,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39775,7 +40451,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39805,7 +40481,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39835,7 +40511,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39865,7 +40541,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39895,7 +40571,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39925,7 +40601,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39955,7 +40631,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -39985,7 +40661,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40015,7 +40691,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40045,7 +40721,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40075,7 +40751,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40105,7 +40781,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40135,7 +40811,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40165,7 +40841,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40195,7 +40871,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40225,7 +40901,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40255,7 +40931,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40285,7 +40961,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40315,7 +40991,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40345,7 +41021,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40375,7 +41051,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40405,7 +41081,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40435,7 +41111,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40465,7 +41141,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40495,7 +41171,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40525,7 +41201,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40555,7 +41231,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40585,7 +41261,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40615,7 +41291,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40645,7 +41321,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40675,7 +41351,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40705,7 +41381,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40735,7 +41411,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40765,7 +41441,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40795,7 +41471,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40825,7 +41501,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40855,7 +41531,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40885,7 +41561,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40915,7 +41591,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40945,7 +41621,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -40975,7 +41651,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41005,7 +41681,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41035,7 +41711,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41065,7 +41741,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41095,7 +41771,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41125,7 +41801,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41155,7 +41831,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41185,7 +41861,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41215,7 +41891,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41245,7 +41921,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41275,7 +41951,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41305,7 +41981,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41335,7 +42011,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41365,7 +42041,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41395,7 +42071,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41425,7 +42101,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41455,7 +42131,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41485,7 +42161,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41515,7 +42191,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41545,7 +42221,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41575,7 +42251,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41605,7 +42281,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41635,7 +42311,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41665,7 +42341,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41695,7 +42371,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41725,7 +42401,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41755,7 +42431,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41785,7 +42461,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -41815,7 +42491,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 22
+          "ruleIndex": 21
         }
       ],
       "tool": {
@@ -42150,23 +42826,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
-              }
-            },
-            {
-              "id": "app-CollectDelegatableDataSource",
-              "messageStrings": {
-                "issue": {
-                  "text": "The rows retrieved from the data source may not be complete."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Limit the data collected from the data source by updating the formula \"ClearCollect(OfflineVisits, Visits_1)\" to include a filtering function, such as 'Filter' or 'Search'."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Using the 'Collect' function to create a collection directly from a connected data source may not load every row if the data source is too large."
               }
             },
             {
