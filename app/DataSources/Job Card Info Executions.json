@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crc2a_jobcardinfoexecution",
+    "MaxGetRowsCount": 500,
     "Name": "Job Card Info Executions",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

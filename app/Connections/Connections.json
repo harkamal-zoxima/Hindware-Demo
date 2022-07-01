@@ -17,5 +17,21 @@
     "dependencies": {},
     "dependents": [],
     "id": "22cd26cf-3b27-43f8-b024-904678d2a50b"
+  },
+  "43250cd9-8e8a-4f2e-876d-292d500f717d": {
+    "connectionParameters": {},
+    "connectionRef": {
+      "authenticationType": "shared-application",
+      "displayName": "Gmail",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1571/1.0.1571.2770/gmail/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_gmail"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Gmail"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "43250cd9-8e8a-4f2e-876d-292d500f717d"
   }
 }

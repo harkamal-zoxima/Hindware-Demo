@@ -220,7 +220,8 @@
                             'Generated Sad OTP': RoundDown(
                                 Rand() * 10000,
                                 0
-                            )
+                            ),
+                            'Customer Feedback': Rating1.Value
                         }
                     );
                     Notify("Your Job info has been collected.", NotificationType.Success, 1500)
@@ -235,7 +236,7 @@
                 Text: ="SUBMIT "
                 Width: =290
                 X: =175
-                Y: =1031
+                Y: =1044
                 ZIndex: =21
 
             Group32 As group:
@@ -391,7 +392,25 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(31, 31, 31, 1)
                     HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-                    OnSelect: =Set(SentOtp, true)
+                    OnSelect: |-
+                        =Set(
+                            SentOtp,
+                            true
+                        );
+                        
+                        Gmail.SendEmailV2(
+                            "harkamal.singh@zoxima.com",
+                            {
+                                Subject: "Happy code or Sad code (Hindware)",
+                                Body: "Your OTP for<br>: Happy Code: " & RoundDown(
+                                    Rand() * 10000,
+                                    0
+                                ) & "<br>Sad Code: " & RoundDown(
+                                    Rand() * 10000,
+                                    0
+                                )
+                            }
+                        )
                     PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
                     PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)

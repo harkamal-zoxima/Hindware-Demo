@@ -67,7 +67,7 @@
             Height: =42
             OnSelect: =Select(Parent)
             Size: =12
-            Text: =ThisItem.PG2.Name
+            Text: =ThisItem.PG2.crc2a_name
             Width: =172
             X: =413
             Y: =141
@@ -77,7 +77,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Fill: =RGBA(255, 200, 61, 1)
+            Fill: =RGBA(0, 0, 0, 0)
             Height: =179
             Media: =ThisItem.Link
             Width: =333
@@ -113,7 +113,7 @@
             Height: =28
             OnSelect: =Select(Parent)
             Size: =12
-            Text: =ThisItem.PG1.Name
+            Text: =ThisItem.PG1.crc2a_name
             Width: =188
             X: =413
             Y: =117
