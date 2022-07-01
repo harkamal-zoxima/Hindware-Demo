@@ -6,11 +6,13 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crc2a_jobcard",
+    "MaxGetRowsCount": 500,
     "Name": "Job Cards",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "crc2a_address": "Address",
       "crc2a_AssignedBy": "Assigned By",
+      "crc2a_Assignto": "Assign to",
       "crc2a_checkinlatitude": "CheckIn Latitude",
       "crc2a_checkinlongitude": "CheckIn Longitude",
       "crc2a_code": "Code",
