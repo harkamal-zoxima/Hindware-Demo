@@ -1,0 +1,104 @@
+"'Learning Path' As screen":
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+
+    HtmlText1_30 As htmlViewer:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =82
+        HtmlText: |-
+            ="<div style='border-radius:0; background-color:#A00002; width:640px; height:70px'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Width: =640
+        ZIndex: =1
+
+    Label11_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =46
+        Size: =21
+        Text: ="Learning path"
+        Width: =560
+        X: =80
+        Y: =12
+        ZIndex: =2
+
+    "'Bottom Navigation_4' As 'Bottom Navigation'":
+        NavItems: |-
+            =Table( {
+                    Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
+                    //Title: Start,
+                    Screen: If(varAttendance= "start" , StartDay, varAttendance= "end" , 'End day', varAttendance= "done" , 'Day Ended' ),
+                
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: true
+                }
+                )
+        Y: =1056
+        ZIndex: =3
+
+    "'Side Bar_18' As 'Side Bar'":
+        ZIndex: =4
+
+    Gallery11 As gallery.variableTemplateHeightGallery:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Height: =854
+        Items: |+
+            =Table({Item:"https://www.youtube.com/watch?v=LKaFz2CBRxs"},{Item:"https://www.youtube.com/watch?v=AXn29drBP1U"})
+            
+        Layout: =Layout.Vertical
+        TemplateSize: =288
+        Y: =79
+        ZIndex: =5
+
+        HtmlText1_31 As htmlViewer:
+            Color: =RGBA(242, 242, 242, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =235
+            HtmlText: |-
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:2px solid #D3D4D6; width:580px; height:220px'></div>"
+            OnSelect: =Select(Parent)
+            Width: =594
+            X: =20
+            Y: =26
+            ZIndex: =1
+
+        Video2 As videoPlayback:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Fill: =RGBA(255, 200, 61, 1)
+            Height: =156
+            Media: =ThisItem.Item
+            Width: =297
+            X: =277
+            Y: =65
+            ZIndex: =2
+
