@@ -408,35 +408,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =119
-            OnSelect: |
-                =Switch(
-                    varAttendance,
-                    "start",
-                    Notify(
-                        "Please start your day first",
-                        NotificationType.Warning,
-                        1000
-                    ),
-                    "end",
-                    Patch(
-                        Visits_1,
-                        LookUp(
-                            Visits_1,
-                            'Visit ID' = ClickedVisit.'Visit ID'
-                        ),
-                        {status: 'status (Visits_1)'.Started}
-                    );
-                    Navigate(
-                        'Start visit',
-                        ScreenTransition.Cover
-                    ),
-                    "done",
-                    Notify(
-                        "Your day has ended",
-                        NotificationType.Warning,
-                        1000
-                    )
-                );
+            OnSelect: =
             Size: =21
             Text: ="Do you really want to end your day?"
             Visible: =VarDialog
