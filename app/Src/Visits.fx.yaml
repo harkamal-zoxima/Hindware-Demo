@@ -104,7 +104,7 @@
                     PressedFill: =RGBA(255, 200, 61, 1)
                     Width: =558
                     X: =36
-                    Y: =299
+                    Y: =294
                     ZIndex: =17
 
                 Button8 As button:
@@ -122,7 +122,7 @@
                     FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Semibold
-                    Height: =31
+                    Height: =45
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =
@@ -162,9 +162,8 @@
                     RadiusTopRight: =0
                     Size: =16
                     Text: =If(ThisItem.'Status (crc2a_status)' = Status.Started , "RESUME" , "START")
-                    Width: =131
-                    X: =152
-                    Y: =316
+                    X: =130
+                    Y: =308
                     ZIndex: =24
 
                 Group25 As group:
@@ -224,7 +223,7 @@
                     FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                     Font: =Font.Lato
                     FontWeight: =FontWeight.Semibold
-                    Height: =31
+                    Height: =45
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =
@@ -263,9 +262,8 @@
                     RadiusTopRight: =0
                     Size: =16
                     Text: ="END"
-                    Width: =131
-                    X: =315
-                    Y: =316
+                    X: =337
+                    Y: =308
                     ZIndex: =25
 
                 Group6 As group:
