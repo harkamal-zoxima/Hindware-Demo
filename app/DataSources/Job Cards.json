@@ -1,0 +1,195 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc2a_jobcards",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc2a_jobcard",
+    "Name": "Job Cards",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crc2a_address": "Address",
+      "crc2a_AssignedBy": "Assigned By",
+      "crc2a_checkinlatitude": "CheckIn Latitude",
+      "crc2a_checkinlongitude": "CheckIn Longitude",
+      "crc2a_code": "Code",
+      "crc2a_customername": "Customer Name",
+      "crc2a_date": "Date",
+      "crc2a_endtime": "End Time",
+      "crc2a_feedback": "Feedback",
+      "crc2a_id": "ID",
+      "crc2a_jobcard_AsyncOperations": "System Jobs",
+      "crc2a_jobcard_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc2a_jobcard_DuplicateBaseRecord": "Duplicate Records (crc2a_jobcard_DuplicateBaseRecord)",
+      "crc2a_jobcard_DuplicateMatchingRecord": "Duplicate Records (crc2a_jobcard_DuplicateMatchingRecord)",
+      "crc2a_jobcard_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc2a_jobcard_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc2a_jobcard_ProcessSession": "Process Sessions",
+      "crc2a_jobcard_SyncErrors": "Sync Errors",
+      "crc2a_jobcardid": "Job Card",
+      "crc2a_mobileno": "Mobile No",
+      "crc2a_pincode": "Pincode",
+      "crc2a_starttime": "Start Time",
+      "crc2a_status": "Status (crc2a_status)",
+      "crc2a_warranty": "Warranty",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status (statecode)",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Job Cards",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Job Cards (Views)",
+    "Name": "_crc2a_jobcard_views",
+    "RelatedEntityName": "Job Cards",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3f085d99-1c87-49de-8797-0686a90fa82c": "Inactive Job Cards",
+      "4717dfec-82b2-48ad-950c-eeb4bc27fd15": "Job Card Lookup View",
+      "9dc4ff76-2036-454d-8325-3b0e74536b63": "Job Card Advanced Find View",
+      "b8258b8c-0e8c-4764-9a62-75ccdb5aebb1": "Active Job Cards",
+      "dccb794c-f9c2-43ae-b6cb-e085bf15792f": "Job Card Associated View"
+    }
+  },
+  {
+    "DisplayName": "Happy/Sad",
+    "Name": "crc2a_happysad",
+    "OptionSetInfoNameMapping": {
+      "355980000": "Happy",
+      "355980001": "Sad"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_code",
+        "OptionSetReferenceEntityName": "Job Cards"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_code",
+    "RelatedEntityName": "Job Cards",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Warranty (Job Cards)",
+    "Name": "crc2a_jobcard_crc2a_warranty",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_warranty",
+        "OptionSetReferenceEntityName": "Job Cards"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crc2a_warranty",
+    "RelatedEntityName": "Job Cards",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Job Cards)",
+    "Name": "crc2a_jobcard_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Job Cards"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Job Cards",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Job Cards)",
+    "Name": "crc2a_jobcard_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Job Cards"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Job Cards",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ratings",
+    "Name": "crc2a_ratings",
+    "OptionSetInfoNameMapping": {
+      "355980000": "1",
+      "355980001": "2",
+      "355980002": "3",
+      "355980003": "4",
+      "355980004": "5"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_feedback",
+        "OptionSetReferenceEntityName": "Job Cards"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_feedback",
+    "RelatedEntityName": "Job Cards",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status",
+    "Name": "crc2a_status",
+    "OptionSetInfoNameMapping": {
+      "1": "Open",
+      "2": "Started",
+      "3": "Cancelled",
+      "4": "Completed"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_status",
+        "OptionSetReferenceEntityName": "Job Cards"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_status",
+    "RelatedEntityName": "Job Cards",
+    "Type": "OptionSetInfo"
+  }
+]

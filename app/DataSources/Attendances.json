@@ -1,0 +1,204 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc2a_attendances",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc2a_attendance",
+    "MaxGetRowsCount": 500,
+    "Name": "Attendances",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crc2a_absenttype": "Absent Type",
+      "crc2a_attendance_AsyncOperations": "System Jobs",
+      "crc2a_attendance_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc2a_attendance_DuplicateBaseRecord": "Duplicate Records (crc2a_attendance_DuplicateBaseRecord)",
+      "crc2a_attendance_DuplicateMatchingRecord": "Duplicate Records (crc2a_attendance_DuplicateMatchingRecord)",
+      "crc2a_attendance_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc2a_attendance_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc2a_attendance_ProcessSession": "Process Sessions",
+      "crc2a_attendance_SyncErrors": "Sync Errors",
+      "crc2a_attendancedate": "Attendance Date",
+      "crc2a_attendanceid": "Attendance",
+      "crc2a_attendancetype": "Attendance Type",
+      "crc2a_dayended": "Day Ended ?",
+      "crc2a_daystarted": "Day Started ?",
+      "crc2a_enddaydateandtime": "End Day Date and Time",
+      "crc2a_id": "ID",
+      "crc2a_latitude": "Latitude",
+      "crc2a_longitude": "Longitude",
+      "crc2a_manageraccompanying": "Manager Accompanying ?",
+      "crc2a_pgid": "PG ID",
+      "crc2a_presenttype": "Present Type",
+      "crc2a_remarks": "Remarks",
+      "crc2a_SalesUser": "Sales User",
+      "crc2a_SalesUserManager": "Sales User Manager",
+      "crc2a_startdaydateandtime": "Start Day Date and Time",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Attendances",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Attendances (Views)",
+    "Name": "_crc2a_attendance_views",
+    "RelatedEntityName": "Attendances",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0606d39b-0b49-465d-91c9-f92daffdd3e8": "Attendance Lookup View",
+      "3f1bb4da-2bf3-4cd1-8238-3035a2ad9ade": "Inactive Attendances",
+      "46625b7f-6571-49c7-a079-c01d9b56301f": "Attendance Advanced Find View",
+      "6f66603f-cf82-4d29-ad2b-2b9318d67f50": "Active Attendances",
+      "7953876c-f0e8-44d9-83ab-454cdaf81b77": "Attendance Associated View"
+    }
+  },
+  {
+    "DisplayName": "Absent Type",
+    "Name": "crc2a_absenttype",
+    "OptionSetInfoNameMapping": {
+      "355980000": "Planned Leave",
+      "355980001": "Adhoc Leave"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_absenttype",
+        "OptionSetReferenceEntityName": "Attendances"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_absenttype",
+    "RelatedEntityName": "Attendances",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Attendance_1",
+    "Name": "crc2a_attendance",
+    "OptionSetInfoNameMapping": {
+      "355980000": "Present",
+      "355980001": "Absent"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_attendancetype",
+        "OptionSetReferenceEntityName": "Attendances"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_attendancetype",
+    "RelatedEntityName": "Attendances",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Attendances)",
+    "Name": "crc2a_attendance_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Attendances"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Attendances",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Attendances)",
+    "Name": "crc2a_attendance_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Attendances"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Attendances",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Present Type",
+    "Name": "crc2a_presenttype",
+    "OptionSetInfoNameMapping": {
+      "355980000": "In Office",
+      "355980001": "Market Visit",
+      "355980002": "Work From Home",
+      "355980003": "In Factory",
+      "355980004": "In Depot",
+      "355980005": "Travel"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_presenttype",
+        "OptionSetReferenceEntityName": "Attendances"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_presenttype",
+    "RelatedEntityName": "Attendances",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Yes/No",
+    "Name": "crc2a_yesno",
+    "OptionSetInfoNameMapping": {
+      "355980000": "Yes",
+      "355980001": "No"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_dayended",
+        "OptionSetReferenceEntityName": "Attendances"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "crc2a_manageraccompanying",
+        "OptionSetReferenceEntityName": "Attendances"
+      },
+      "OptionSetReferenceItem2": {
+        "OptionSetReferenceColumnName": "crc2a_daystarted",
+        "OptionSetReferenceEntityName": "Attendances"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_dayended",
+    "RelatedEntityName": "Attendances",
+    "Type": "OptionSetInfo"
+  }
+]
