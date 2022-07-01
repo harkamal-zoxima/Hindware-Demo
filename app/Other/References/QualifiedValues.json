@@ -37,6 +37,13 @@
       }
     },
     {
+      "Kind": "default.cds_crc2a_category_forms",
+      "Namespace": "Categories_1 (Forms)",
+      "Values": {
+        "Information": "3325a57f-c900-4831-be08-b5e7e4259fef"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_complaints_forms",
       "Namespace": "Complaints_1 (Forms)",
       "Values": {
@@ -111,6 +118,13 @@
       }
     },
     {
+      "Kind": "default.cds_crc2a_learning_forms",
+      "Namespace": "Learnings (Forms)",
+      "Values": {
+        "Information": "81d1d1eb-387d-4781-bbad-eef964c448b3"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_salesorder_forms",
       "Namespace": "not requireds (Forms)",
       "Values": {
@@ -136,6 +150,13 @@
       "Namespace": "Product Price List (Forms)",
       "Values": {
         "Information": "626f4f57-fa01-441e-bb61-c833f16359bc"
+      }
+    },
+    {
+      "Kind": "default.cds_crc2a_product_forms",
+      "Namespace": "Products (Forms)",
+      "Values": {
+        "Information": "332dbc11-2a99-48f7-bb96-3eb98cfebc6c"
       }
     },
     {

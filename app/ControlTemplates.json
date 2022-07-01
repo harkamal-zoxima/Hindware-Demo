@@ -279,6 +279,20 @@
     "OverridableProperties": {},
     "Version": "2.2.1"
   },
+  "inkControl": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/inkControl",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "inkControl",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
+  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -320,6 +334,30 @@
     "Name": "radio",
     "OverridableProperties": {},
     "Version": "2.3.0"
+  },
+  "rating": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/rating",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "rating",
+    "OverridableProperties": {},
+    "Version": "2.1.0"
+  },
+  "Rating": {
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/rating",
+    "IsComponentTemplate": false,
+    "IsPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Rating",
+    "Version": "2.1.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
