@@ -1,0 +1,104 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc2a_categories",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc2a_category",
+    "Name": "Categories_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crc2a_category_AsyncOperations": "System Jobs",
+      "crc2a_category_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc2a_category_DuplicateBaseRecord": "Duplicate Records (crc2a_category_DuplicateBaseRecord)",
+      "crc2a_category_DuplicateMatchingRecord": "Duplicate Records (crc2a_category_DuplicateMatchingRecord)",
+      "crc2a_category_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc2a_category_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc2a_category_ProcessSession": "Process Sessions",
+      "crc2a_category_SyncErrors": "Sync Errors",
+      "crc2a_categoryid": "Category",
+      "crc2a_code": "Code",
+      "crc2a_crc2a_category_ParentCategory_crc2a_categ": "Categories",
+      "crc2a_crc2a_learning_PG1_crc2a_category": "Learnings (crc2a_crc2a_learning_PG1_crc2a_category)",
+      "crc2a_crc2a_learning_PG2_crc2a_category": "Learnings (crc2a_crc2a_learning_PG2_crc2a_category)",
+      "crc2a_crc2a_product_PG1_crc2a_category": "Products (crc2a_crc2a_product_PG1_crc2a_category)",
+      "crc2a_crc2a_product_PG2_crc2a_category": "Products (crc2a_crc2a_product_PG2_crc2a_category)",
+      "crc2a_level": "Level",
+      "crc2a_name": "Name",
+      "crc2a_ParentCategory": "Parent Category",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Categories_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Categories_1 (Views)",
+    "Name": "_crc2a_category_views",
+    "RelatedEntityName": "Categories_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "31cdc0d2-5c33-4c5b-913e-d72b34a8a3ed": "Category Advanced Find View",
+      "738559c4-f0aa-4fd7-8128-734e0b0d15cf": "Category Associated View",
+      "7420d443-8939-45c9-aae6-7dc912e655cf": "Active Categories",
+      "cd7ec8ba-d8e5-465a-a2ed-724df6fa947b": "Category Lookup View",
+      "cdf14d86-6e44-4cba-9d7a-4b5ae540bd94": "Inactive Categories"
+    }
+  },
+  {
+    "DisplayName": "Status (Categories_1)",
+    "Name": "crc2a_category_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Categories_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Categories_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Categories_1)",
+    "Name": "crc2a_category_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Categories_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Categories_1",
+    "Type": "OptionSetInfo"
+  }
+]

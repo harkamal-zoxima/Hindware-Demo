@@ -213,13 +213,6 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
-    },
-    {
-      "Kind": "default.cds_crc2a_product_forms",
-      "Namespace": "Products (Forms)",
-      "Values": {
-        "Information": "332dbc11-2a99-48f7-bb96-3eb98cfebc6c"
-      }
     }
   ]
 }
