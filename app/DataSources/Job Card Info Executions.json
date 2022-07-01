@@ -10,6 +10,7 @@
     "Name": "Job Card Info Executions",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "crc2a_code": "Code",
       "crc2a_customerfeedback": "Customer Feedback",
       "crc2a_generatedhappyotp": "Generated Happy OTP",
       "crc2a_generatedsadotp": "Generated Sad OTP",
@@ -58,6 +59,26 @@
       "86c68204-5bc2-4296-93de-5c401e323717": "Job Card Info Execution Lookup View",
       "bb67fb1d-499a-4045-8310-0b2e85c0cd59": "Job Card Info Execution Associated View"
     }
+  },
+  {
+    "DisplayName": "Code (Job Card Info Executions)",
+    "Name": "crc2a_jobcardinfoexecution_crc2a_code",
+    "OptionSetInfoNameMapping": {
+      "355980000": "Happy",
+      "355980001": "Sad"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_code",
+        "OptionSetReferenceEntityName": "Job Card Info Executions"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_code",
+    "RelatedEntityName": "Job Card Info Executions",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Status (Job Card Info Executions)",
