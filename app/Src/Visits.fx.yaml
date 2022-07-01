@@ -31,9 +31,9 @@
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =852
+        Height: =762
         Width: =Parent.Width
-        Y: =204
+        Y: =294
         ZIndex: =1
 
         DataCard2 As dataCard:
@@ -42,7 +42,7 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =883
+            Height: =749
             Width: =Parent.Width
             X: =0
             Y: =0
@@ -968,6 +968,23 @@
             )
         Y: =1056
         ZIndex: =28
+
+    Label7 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =21
+        Text: ="Text"
+        Width: =560
+        X: =29
+        Y: =187
+        ZIndex: =29
 
     EditModal As group:
         Height: =5
