@@ -1,1 +1,21 @@
-{}
+{
+  "22cd26cf-3b27-43f8-b024-904678d2a50b": {
+    "connectionParameters": {
+      "accountName": "princepipes"
+    },
+    "connectionRef": {
+      "authenticationType": "keyBasedAuth",
+      "displayName": "Azure Blob Storage",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1563/1.0.1563.2732/azureblob/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azureblob",
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_azureblob/connections/c2d31a5274f546a5bd353f1bf4246f5f"
+    },
+    "datasets": {},
+    "dataSources": [
+      "AzureBlobStorage"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "22cd26cf-3b27-43f8-b024-904678d2a50b"
+  }
+}

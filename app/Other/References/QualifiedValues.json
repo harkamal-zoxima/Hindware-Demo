@@ -234,6 +234,13 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
+    },
+    {
+      "Kind": "default.cds_crc2a_jobcardinfoexecution_forms",
+      "Namespace": "Job Card Info Executions (Forms)",
+      "Values": {
+        "Information": "7ec42efc-7507-4005-86a7-4989795b75ee"
+      }
     }
   ]
 }

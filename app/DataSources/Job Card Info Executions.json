@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc2a_jobcardinfoexecutions",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc2a_jobcardinfoexecution",
+    "Name": "Job Card Info Executions",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crc2a_customerfeedback": "Customer Feedback",
+      "crc2a_generatedhappyotp": "Generated Happy OTP",
+      "crc2a_generatedsadotp": "Generated Sad OTP",
+      "crc2a_id": "ID",
+      "crc2a_JobCard": "Job Card",
+      "crc2a_jobcardinfoexecution_AsyncOperations": "System Jobs",
+      "crc2a_jobcardinfoexecution_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc2a_jobcardinfoexecution_DuplicateBaseRecord": "Duplicate Records (crc2a_jobcardinfoexecution_DuplicateBaseRecord)",
+      "crc2a_jobcardinfoexecution_DuplicateMatchingRecord": "Duplicate Records (crc2a_jobcardinfoexecution_DuplicateMatchingRecord)",
+      "crc2a_jobcardinfoexecution_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc2a_jobcardinfoexecution_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc2a_jobcardinfoexecution_ProcessSession": "Process Sessions",
+      "crc2a_jobcardinfoexecution_SyncErrors": "Sync Errors",
+      "crc2a_jobcardinfoexecutionid": "Job Card Info Execution",
+      "crc2a_signature": "Signature",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Job Card Info Executions",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Job Card Info Executions (Views)",
+    "Name": "_crc2a_jobcardinfoexecution_views",
+    "RelatedEntityName": "Job Card Info Executions",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0019edf7-a2a0-455a-9fe5-8d8dca655852": "Active Job Card Info Executions",
+      "1c10c99b-ce6f-4287-8350-dc258b410b72": "Inactive Job Card Info Executions",
+      "48ed30cd-ebb5-4ef7-958b-526c9073e11d": "Job Card Info Execution Advanced Find View",
+      "86c68204-5bc2-4296-93de-5c401e323717": "Job Card Info Execution Lookup View",
+      "bb67fb1d-499a-4045-8310-0b2e85c0cd59": "Job Card Info Execution Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Job Card Info Executions)",
+    "Name": "crc2a_jobcardinfoexecution_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Job Card Info Executions"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Job Card Info Executions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Job Card Info Executions)",
+    "Name": "crc2a_jobcardinfoexecution_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Job Card Info Executions"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Job Card Info Executions",
+    "Type": "OptionSetInfo"
+  }
+]

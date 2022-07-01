@@ -167,6 +167,10 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "crc2a_feedback",
         "OptionSetReferenceEntityName": "Job Cards"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "crc2a_customerfeedback",
+        "OptionSetReferenceEntityName": "Job Card Info Executions"
       }
     },
     "OptionSetTypeKey": "PicklistType",

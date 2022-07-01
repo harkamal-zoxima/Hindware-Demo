@@ -191,7 +191,39 @@
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(31, 31, 31, 1)
                 HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-                OnSelect: =Set(VarCanvasOpen, true)
+                OnSelect: |-
+                    =ClearCollect(
+                        MediaResponseVisits,
+                        AzureBlobStorage.CreateFile(
+                            "visits",
+                            User().FullName,
+                            PenInput2_1.Image
+                        )
+                    );
+                    ClearCollect(
+                        MediaUrlVisits,
+                        AzureBlobStorage.CreateShareLinkByPath(First(MediaResponseVisits).Path)
+                    );
+                    Patch(
+                        'Job Card Info Executions',
+                        Defaults('Job Card Info Executions'),
+                        {
+                            'Job Card': LookUp(
+                                'Job Cards',
+                                'Job Card' = ClickedVisit.'Job Card'
+                            ),
+                            Signature: First(MediaUrlVisits).WebUrl,
+                            'Generated Happy OTP': RoundDown(
+                                Rand() * 10000,
+                                0
+                            ),
+                            'Generated Sad OTP': RoundDown(
+                                Rand() * 10000,
+                                0
+                            )
+                        }
+                    );
+                    Notify("Your Job info has been collected.", NotificationType.Success, 1500)
                 PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
                 PressedColor: =RGBA(31, 31, 31, 1)
                 PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)

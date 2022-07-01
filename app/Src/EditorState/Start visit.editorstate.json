@@ -72,7 +72,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button1",
-      "ParentIndex": 1,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1397,7 +1397,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Canvas4",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2032,7 +2032,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Header Component_21",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2134,7 +2134,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon10_13",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2325,7 +2325,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon14_10",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2698,7 +2698,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5",
-      "ParentIndex": 0,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4888,7 +4888,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PenInput2_1",
-      "ParentIndex": 7,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5453,7 +5453,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle7_13",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
