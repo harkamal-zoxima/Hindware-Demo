@@ -26,7 +26,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =46
         Size: =21
-        Text: ="Learning path"
+        Text: ="Learning Path"
         Width: =560
         X: =80
         Y: =12
@@ -86,7 +86,6 @@
             OnSelect: =Select(Parent)
             Width: =610
             X: =20
-            Y: =5
             ZIndex: =1
 
         Label7_12 As label:
@@ -103,7 +102,7 @@
             Text: =ThisItem.PG2.Name
             Width: =300
             X: =285
-            Y: =157
+            Y: =141
             ZIndex: =4
 
         HtmlText1_32 As htmlViewer:
@@ -115,7 +114,7 @@
             OnSelect: =Select(Parent)
             Width: =243
             X: =42
-            Y: =65
+            Y: =49
             ZIndex: =5
 
         Video2 As videoPlayback:
@@ -127,7 +126,7 @@
             Media: =ThisItem.Link
             Width: =185
             X: =57
-            Y: =81
+            Y: =65
             ZIndex: =7
 
         Label7_1 As label:
@@ -145,7 +144,7 @@
             Text: =ThisItem.Product.'Product Name'
             Width: =300
             X: =285
-            Y: =65
+            Y: =49
             ZIndex: =8
 
         Label7_13 As label:
@@ -162,6 +161,6 @@
             Text: =ThisItem.PG1.Name
             Width: =328
             X: =285
-            Y: =133
+            Y: =117
             ZIndex: =9
 
