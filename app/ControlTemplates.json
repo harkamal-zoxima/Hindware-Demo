@@ -279,6 +279,20 @@
     "OverridableProperties": {},
     "Version": "2.2.1"
   },
+  "inkControl": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/inkControl",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "inkControl",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
+  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
