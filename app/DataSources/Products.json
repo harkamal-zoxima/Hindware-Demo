@@ -1,0 +1,105 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc2a_products",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc2a_product",
+    "Name": "Products",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crc2a_crc2a_jobcard_Product_crc2a_product": "Job Cards",
+      "crc2a_crc2a_learning_Product_crc2a_product": "Learnings",
+      "crc2a_crc2a_pricelist_Product_crc2a_product": "Price Lists",
+      "crc2a_crc2a_userproductskillsetmapping_Product_": "User & Product Skill Set Mappings",
+      "crc2a_hsncode": "HSN Code",
+      "crc2a_id": "ID",
+      "crc2a_image": "Image",
+      "crc2a_PG1": "PG1",
+      "crc2a_PG2": "PG2",
+      "crc2a_product_AsyncOperations": "System Jobs",
+      "crc2a_product_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc2a_product_DuplicateBaseRecord": "Duplicate Records (crc2a_product_DuplicateBaseRecord)",
+      "crc2a_product_DuplicateMatchingRecord": "Duplicate Records (crc2a_product_DuplicateMatchingRecord)",
+      "crc2a_product_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc2a_product_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc2a_product_ProcessSession": "Process Sessions",
+      "crc2a_product_SyncErrors": "Sync Errors",
+      "crc2a_productid": "Product",
+      "crc2a_productname": "Product Name",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Products",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Products (Views)",
+    "Name": "_crc2a_product_views",
+    "RelatedEntityName": "Products",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "044b48b3-466c-4402-87e0-23cb64c6530f": "Inactive Products",
+      "50ef5110-e5bb-45b5-9158-d6e8ed4ba96c": "Product Lookup View",
+      "b1080991-6fca-4f67-b025-ac6a801fe487": "Active Products",
+      "c745db8f-1621-42f8-835b-ab0a6b2073be": "Product Associated View",
+      "e92e1a10-97bc-4642-998c-c228749fe776": "Product Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Products)",
+    "Name": "crc2a_product_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Products"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Products",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Products)",
+    "Name": "crc2a_product_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Products"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Products",
+    "Type": "OptionSetInfo"
+  }
+]

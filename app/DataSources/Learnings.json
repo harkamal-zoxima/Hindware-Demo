@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc2a_learnings",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc2a_learning",
+    "Name": "Learnings",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crc2a_id": "ID",
+      "crc2a_learning_AsyncOperations": "System Jobs",
+      "crc2a_learning_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc2a_learning_DuplicateBaseRecord": "Duplicate Records (crc2a_learning_DuplicateBaseRecord)",
+      "crc2a_learning_DuplicateMatchingRecord": "Duplicate Records (crc2a_learning_DuplicateMatchingRecord)",
+      "crc2a_learning_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc2a_learning_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc2a_learning_ProcessSession": "Process Sessions",
+      "crc2a_learning_SyncErrors": "Sync Errors",
+      "crc2a_learningid": "Learning ",
+      "crc2a_link": "Link",
+      "crc2a_PG1": "PG1",
+      "crc2a_PG2": "PG2",
+      "crc2a_Product": "Product",
+      "crc2a_UploadedBy": "Uploaded By",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Learnings",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Learnings (Views)",
+    "Name": "_crc2a_learning_views",
+    "RelatedEntityName": "Learnings",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5fbf6f74-061c-431d-b8c6-61d12a238665": "Learning  Associated View",
+      "8f39b299-83d1-4926-998b-15e350b39f33": "Inactive Learnings",
+      "98c69e14-e3a7-4d2c-875e-8335277a6529": "Learning  Advanced Find View",
+      "b0b37ddc-d35d-4aa6-8276-bf003bda4940": "Learning  Lookup View",
+      "baf06baa-5fbe-479e-937b-1e516d0a82a2": "Active Learnings"
+    }
+  },
+  {
+    "DisplayName": "Status (Learnings)",
+    "Name": "crc2a_learning_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Learnings"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Learnings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Learnings)",
+    "Name": "crc2a_learning_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Learnings"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Learnings",
+    "Type": "OptionSetInfo"
+  }
+]

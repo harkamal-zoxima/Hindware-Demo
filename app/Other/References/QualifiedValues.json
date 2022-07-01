@@ -213,6 +213,27 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
+    },
+    {
+      "Kind": "default.cds_crc2a_learning_forms",
+      "Namespace": "Learnings (Forms)",
+      "Values": {
+        "Information": "81d1d1eb-387d-4781-bbad-eef964c448b3"
+      }
+    },
+    {
+      "Kind": "default.cds_crc2a_category_forms",
+      "Namespace": "Categories_1 (Forms)",
+      "Values": {
+        "Information": "3325a57f-c900-4831-be08-b5e7e4259fef"
+      }
+    },
+    {
+      "Kind": "default.cds_crc2a_product_forms",
+      "Namespace": "Products (Forms)",
+      "Values": {
+        "Information": "332dbc11-2a99-48f7-bb96-3eb98cfebc6c"
+      }
     }
   ]
 }
