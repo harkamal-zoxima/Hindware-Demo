@@ -399,7 +399,7 @@
                         );
                         
                         Gmail.SendEmailV2(
-                            "harkamal.singh@zoxima.com",
+                            ClickedVisit.Email,
                             {
                                 Subject: "Happy code or Sad code (Hindware)",
                                 Body: "Your OTP for<br>: Happy Code: " & RoundDown(
