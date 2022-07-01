@@ -3,37 +3,16 @@
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnHidden: =Set(VarDialogOpen, false);
     OnVisible: |-
-        =Clear(PrimaryCart);
-        Set(
+        =Set(
             varOpen,
             false
-        );
-        Refresh(Visits_1);
-        If(
-            Connection.Connected,
-            ClearCollect(
-                OfflineVisits,
-                Visits_1
-            );
-        );
-        Set(
-            VarVisit,
-            false
-        );
-        Set(
-            VarDialogOpen,
-            false
-        );
-        ClearCollect(
-            SelectedVisitForEdit,
-            First(Visits_1)
         );
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =762
+        Height: =918
         Width: =Parent.Width
-        Y: =294
+        Y: =138
         ZIndex: =1
 
         DataCard2 As dataCard:
@@ -879,41 +858,6 @@
         Y: =543
         ZIndex: =25
 
-    ComboBox1 As combobox:
-        BorderColor: =RGBA(109, 109, 109, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(31, 31, 31, 1)
-        ChevronHoverBackground: =RGBA(79, 79, 79, 1)
-        ChevronHoverFill: =RGBA(218, 218, 218, 1)
-        Color: =RGBA(22, 22, 22, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["fullname"]
-        Font: =Font.'Segoe UI'
-        Height: =48
-        HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(79, 79, 79, 1)
-        InputTextPlaceholder: ="Self"
-        IsSearchable: =false
-        Items: =Subordinates
-        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-        PressedColor: =RGBA(31, 31, 31, 1)
-        PressedFill: =RGBA(255, 200, 61, 1)
-        SearchFields: =["fullname"]
-        SearchItems: =[]
-        SelectionColor: =RGBA(31, 31, 31, 1)
-        SelectionFill: =RGBA(255, 200, 61, 1)
-        SelectMultiple: =false
-        Size: =21
-        Width: =580
-        X: =29
-        Y: =139
-        ZIndex: =26
-
     "'Side Bar_1' As 'Side Bar'":
         ZIndex: =27
 
@@ -968,23 +912,6 @@
             )
         Y: =1056
         ZIndex: =28
-
-    Label7 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =21
-        Text: ="Text"
-        Width: =560
-        X: =29
-        Y: =187
-        ZIndex: =29
 
     EditModal As group:
         Height: =5
