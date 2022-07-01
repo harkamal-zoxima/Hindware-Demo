@@ -104,6 +104,13 @@
       }
     },
     {
+      "Kind": "default.cds_crc2a_jobcard_forms",
+      "Namespace": "Job Cards (Forms)",
+      "Values": {
+        "Information": "992f8506-f179-47e0-9db8-cd1bf503875f"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_salesorder_forms",
       "Namespace": "not requireds (Forms)",
       "Values": {
@@ -184,13 +191,6 @@
       "Namespace": "Visits_1 (Forms)",
       "Values": {
         "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
-      }
-    },
-    {
-      "Kind": "default.cds_crc2a_jobcard_forms",
-      "Namespace": "Job Cards (Forms)",
-      "Values": {
-        "Information": "992f8506-f179-47e0-9db8-cd1bf503875f"
       }
     },
     {
