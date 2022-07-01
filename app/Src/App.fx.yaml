@@ -41,6 +41,11 @@ App As appinfo:
             User().Email
         );
         
+        //Set(TodayJobs,CountRows(Filter('Job Cards',Date=Today()));
+        Set(TodayJobCount,CountRows(Filter('Job Cards', Date = Today()&& 'Assign to'.'Primary Email'=User().Email)));
+        Set(JobExecutedCount,CountRows(Filter('Job Cards', 'Status (crc2a_status)' = Status.Started&& 'Assign to'.'Primary Email'=User().Email)));
+        Set(BestExecution,CountRows(Filter('Job Card Info Executions', Int('Customer Feedback')>3)));
+        Set(CustomerFeedback,CountRows(Filter('Job Cards', Date = Today())));
         
     StartScreen: ='Start Screen'
 

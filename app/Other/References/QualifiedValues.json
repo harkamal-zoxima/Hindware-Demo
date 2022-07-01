@@ -222,6 +222,11 @@
       }
     },
     {
+      "Kind": "default.cds_duplicaterecord_forms",
+      "Namespace": "Duplicate Records (Forms)",
+      "Values": {}
+    },
+    {
       "Kind": "default.cds_cr431_attendence_forms",
       "Namespace": "Attendences (Forms)",
       "Values": {
@@ -241,11 +246,6 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
-    },
-    {
-      "Kind": "default.cds_duplicaterecord_forms",
-      "Namespace": "Duplicate Records (Forms)",
-      "Values": {}
     }
   ]
 }
