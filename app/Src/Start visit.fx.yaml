@@ -1,6 +1,17 @@
 "'Start visit' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+    OnVisible: |-
+        =Patch(
+            'Job Card Info Executions',
+            Defaults('Job Card Info Executions'),
+            {
+                'Job Card': LookUp(
+                    'Job Cards',
+                    'Job Card' = ClickedVisit.'Job Card'
+                )
+            }
+        );
 
     Canvas4 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
@@ -482,11 +493,29 @@
                     HoverColor: =RGBA(31, 31, 31, 1)
                     HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
                     OnSelect: |-
-                        =Patch('Job Card Info Executions', LookUp('Job Card Info Executions', 'Job Card'.'Job Card' = ClickedVisit.'Job Card'), {
-                            Code: If(Otp.Text = HappyCode , 'Code (Job Card Info Executions)'.Happy, Otp.Text = SadCode , 'Code (Job Card Info Executions)'.Sad )
-                        });
+                        =Patch(
+                            'Job Card Info Executions',
+                            LookUp(
+                                'Job Card Info Executions',
+                                'Job Card'.'Job Card' = ClickedVisit.'Job Card'
+                            ),
+                            {
+                                Code: If(
+                                    Value(Otp.Text) = Value(HappyCode),
+                                    'Code (Job Card Info Executions)'.Happy,
+                                    Value(Otp.Text) = Value(SadCode),
+                                    'Code (Job Card Info Executions)'.Sad
+                                    
+                                )
+                            }
+                        );
                         
-                        Notify("Verification done", NotificationType.Success, 1500)
+                        Set(Result, Otp.Text);
+                        Notify(
+                            "Verification done",
+                            NotificationType.Success,
+                            1500
+                        )
                     PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
                     PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
@@ -515,11 +544,29 @@
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.Check
                     OnSelect: |-
-                        =Patch('Job Card Info Executions', LookUp('Job Card Info Executions', 'Job Card'.'Job Card' = ClickedVisit.'Job Card'), {
-                            Code: If(Otp.Text = HappyCode , 'Code (Job Card Info Executions)'.Happy, Otp.Text = SadCode , 'Code (Job Card Info Executions)'.Sad )
-                        });
+                        =Patch(
+                            'Job Card Info Executions',
+                            LookUp(
+                                'Job Card Info Executions',
+                                'Job Card'.'Job Card' = ClickedVisit.'Job Card'
+                            ),
+                            {
+                                Code: If(
+                                    Value(Otp.Text) = Value(HappyCode),
+                                    'Code (Job Card Info Executions)'.Happy,
+                                    Value(Otp.Text) = Value(SadCode),
+                                    'Code (Job Card Info Executions)'.Sad
+                                    
+                                )
+                            }
+                        );
                         
-                        Notify("Verification done", NotificationType.Success, 1500)
+                        Set(Result, Otp.Text);
+                        Notify(
+                            "Verification done",
+                            NotificationType.Success,
+                            1500
+                        )
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                     PressedFill: =RGBA(0, 0, 0, 0)
