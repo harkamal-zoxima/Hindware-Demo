@@ -7,7 +7,7 @@
             varOpen,
             false
         );
-        Set(VarDialogOpen, false)
+        Set(VarDialog, false)
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
@@ -66,6 +66,7 @@
                     Text: = ThisItem.'Customer Name'
                     Width: =427
                     X: =76
+                    Y: =2
                     ZIndex: =2
 
                 Icon1_13 As icon.Edit:
@@ -139,8 +140,8 @@
                                 2000
                             ),
                             Set(
-                                VarDialogOpen,
-                                !VarDialogOpen
+                                VarDialog,
+                                true
                             );
                             Set(
                                 ClickedVisit,
@@ -387,7 +388,7 @@
                         FontWeight: =FontWeight.Bold
                         Height: =25
                         OnSelect: =Select(Parent)
-                        Text: ="FLORENCE 60 AUTO CLEAN CHIMNEY"
+                        Text: =ThisItem.Product.'Product Name'
                         Width: =395
                         X: =185
                         Y: =75
@@ -411,7 +412,7 @@
                         Font: =Font.Lato
                         Height: =37
                         OnSelect: =Select(Parent)
-                        Text: ="Address"
+                        Text: ="Mobile"
                         Width: =147
                         X: =40
                         Y: =205
@@ -429,7 +430,7 @@
                         FontWeight: =FontWeight.Bold
                         Height: =37
                         OnSelect: =Select(Parent)
-                        Text: =ThisItem.Address
+                        Text: =ThisItem.'Phone No'
                         Width: =411
                         X: =187
                         Y: =205
@@ -453,7 +454,7 @@
                         Font: =Font.Lato
                         Height: =37
                         OnSelect: =Select(Parent)
-                        Text: ="Pincode"
+                        Text: ="Job ID"
                         Width: =147
                         X: =42
                         Y: =251
@@ -471,7 +472,7 @@
                         FontWeight: =FontWeight.Bold
                         Height: =37
                         OnSelect: =Select(Parent)
-                        Text: =ThisItem.Pincode
+                        Text: ="J-" & ThisItem.ID
                         Width: =411
                         X: =189
                         Y: =251
@@ -672,4 +673,138 @@
             X: =207
             Y: =17
             ZIndex: =16
+
+    "'Confirmation modal' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
+
+        Rectangle7_4 As rectangle:
+            BorderColor: =RGBA(204, 204, 204, 1)
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(237, 237, 237, 1)
+            FocusedBorderThickness: =4
+            Height: =335
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: |-
+                =If(VarDialogOpen, Patch(
+                    Visits_1,
+                    Defaults(Visits_1),
+                    {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
+                    Customer: LookUp(Accounts, )}
+                );
+                )
+            PressedFill: =RGBA(237, 237, 237, 1)
+            Visible: =VarDialog
+            Width: =550
+            X: =45
+            Y: =350
+            ZIndex: =29
+
+        Icon10_4 As icon.Cancel:
+            BorderColor: =RGBA(109, 109, 109, 1)
+            Color: =RGBA(128, 128, 128, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =37
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Cancel
+            OnSelect: =Set(VarDialog, false)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =VarDialog
+            Width: =37
+            X: =543
+            Y: =363
+            ZIndex: =30
+
+        Button2_7 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(160, 0, 2, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+            FontWeight: =FontWeight.Bold
+            Height: =45
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(31, 31, 31, 1)
+            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+            OnSelect: |
+                =Switch(
+                    varAttendance,
+                    "start",
+                    Notify(
+                        "Please start your day first",
+                        NotificationType.Warning,
+                        1000
+                    );
+                    Navigate(
+                        StartDay,
+                        ScreenTransition.Fade
+                    );
+                    ,
+                    "end",
+                    Patch(
+                        'Job Cards',
+                        LookUp(
+                            'Job Cards',
+                            ID = ClickedVisit.ID
+                        ),
+                        {
+                            'Start Time': Now(),
+                            'CheckIn Latitude': Location.Latitude,
+                            'CheckIn Longitude': Location.Longitude,
+                            'Status (crc2a_status)': Status.Started
+                        }
+                    );
+                    Navigate(
+                        'Start visit',
+                        ScreenTransition.Cover
+                    ),
+                    "done",
+                    Notify(
+                        "Your day has ended",
+                        NotificationType.Warning,
+                        1000
+                    )
+                );
+            PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+            PressedColor: =RGBA(31, 31, 31, 1)
+            PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            Size: =14
+            Text: ="CONFIRM"
+            Visible: =VarDialog
+            Width: =137
+            X: =252
+            Y: =597
+            ZIndex: =31
+
+        Label7_11 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(31, 31, 31, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =119
+            OnSelect: =
+            Size: =21
+            Text: ="Do you want to start the job?"
+            Visible: =VarDialog
+            Width: =488
+            X: =75
+            Y: =436
+            ZIndex: =32
 
