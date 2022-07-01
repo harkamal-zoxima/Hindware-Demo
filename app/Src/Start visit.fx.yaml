@@ -217,7 +217,7 @@
                     );
                     Patch(
                         'Job Card Info Executions',
-                        Defaults('Job Card Info Executions'),
+                        LookUp('Job Card Info Executions', 'Job Card'.'Job Card' = ClickedVisit.'Job Card'),
                         {
                             'Job Card': LookUp(
                                 'Job Cards',
@@ -360,12 +360,30 @@
                     Y: =805
                     ZIndex: =16
 
-            Group35 As group:
+            Label9_17 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Height: =68
+                Size: =15
+                Text: ="Your response has already been submitted"
+                Width: =327
+                X: =286
+                Y: =475
+                ZIndex: =25
+
+            Group2 As group:
                 Height: =5
                 Width: =5
                 X: =60
                 Y: =60
-                ZIndex: =23
+                ZIndex: =25
 
                 Label9_15 As label:
                     BorderColor: =RGBA(0, 0, 0, 0)
@@ -390,6 +408,7 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =If(SentOtp, DisplayMode.Edit, DisplayMode.Disabled)
                     Fill: =RGBA(255, 200, 61, 1)
                     FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                     FontWeight: =FontWeight.Semibold
@@ -466,18 +485,11 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =18
-                    Visible: =SentOtp
+                    Visible: =SentOtp 
                     Width: =214
                     X: =298
                     Y: =484
                     ZIndex: =22
-
-            Group36 As group:
-                Height: =5
-                Width: =5
-                X: =60
-                Y: =60
-                ZIndex: =25
 
                 Button1_8 As button:
                     BorderColor: =RGBA(0, 0, 0, 0)
@@ -515,7 +527,8 @@
                             "Verification done",
                             NotificationType.Success,
                             1500
-                        )
+                        );
+                        Set(SentOtp, false)
                     PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
                     PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
@@ -566,7 +579,8 @@
                             "Verification done",
                             NotificationType.Success,
                             1500
-                        )
+                        );
+                        Set(SentOtp, false)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                     PressedFill: =RGBA(0, 0, 0, 0)

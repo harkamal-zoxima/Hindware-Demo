@@ -1,0 +1,21 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "duplicaterecords",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "duplicaterecord",
+    "Name": "Duplicate Records",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_baserecordid_value": "Base Record ID",
+      "_duplicaterecordid_value": "Duplicate Record ID",
+      "asyncoperationid": "System Job",
+      "createdon": "CreatedOn",
+      "duplicateid": "DuplicateId",
+      "duplicateruleid": "DuplicateRuleId"
+    },
+    "PreferredName": "Duplicate Records",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]
