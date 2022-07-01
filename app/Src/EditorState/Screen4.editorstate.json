@@ -419,7 +419,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneSuccessMsg.ID%",
       "Name": "LblSuccessMsg1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -748,7 +748,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Side Bar_24",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
