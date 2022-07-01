@@ -60,59 +60,6 @@
         Y: =15
         ZIndex: =6
 
-    Group8 As group:
-        Height: =5
-        Width: =5
-        X: =60
-        Y: =60
-        ZIndex: =9
-
-        Label9_5 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =46
-            Size: =17
-            Text: ="Customer Name"
-            Width: =560
-            X: =40
-            Y: =96
-            ZIndex: =7
-
-        TextInput2_2 As text:
-            BorderColor: =RGBA(109, 109, 109, 1)
-            BorderThickness: =2
-            Color: =RGBA(255, 191, 0, 1)
-            Default: =LookUp('Job Cards', ID = ClickedVisit.ID).'Customer Name'
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(128, 128, 128, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(31, 31, 31, 1)
-            FocusedBorderThickness: =4
-            Height: =58
-            HintText: =""
-            HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =RGBA(31, 31, 31, 1)
-            PressedBorderColor: =RGBA(255, 200, 61, 1)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(31, 31, 31, 1)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =18
-            Width: =560
-            X: =40
-            Y: =142
-            ZIndex: =8
-
     Group8_2 As group:
         Height: =5
         Width: =5
