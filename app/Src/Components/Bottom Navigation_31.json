@@ -34,7 +34,7 @@
             "Name": "galleryTemplate2_2",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1966,
+            "PublishOrderIndex": 1968,
             "Rules": [
               {
                 "Category": "Design",
@@ -127,7 +127,7 @@
             "Name": "Rectangle3_1",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1967,
+            "PublishOrderIndex": 1969,
             "Rules": [
               {
                 "Category": "Design",
@@ -312,7 +312,7 @@
             "Name": "Icon1_3",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1968,
+            "PublishOrderIndex": 1970,
             "Rules": [
               {
                 "Category": "Design",
@@ -575,7 +575,7 @@
             "Name": "Label2_131",
             "Parent": "Gallery2_2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1969,
+            "PublishOrderIndex": 1971,
             "Rules": [
               {
                 "Category": "Data",
@@ -896,7 +896,7 @@
         "Name": "Gallery2_2",
         "Parent": "Bottom Navigation_31",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1965,
+        "PublishOrderIndex": 1967,
         "Rules": [
           {
             "Category": "Data",
@@ -1089,7 +1089,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637922535044046248",
+    "LastModifiedTimestamp": "637922522198726249",
     "Name": "Bottom Navigation_31",
     "Rules": [
       {
@@ -1164,7 +1164,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637922535044046248",
+  "LastModifiedTimestamp": "637922522198726249",
   "Name": "16cae954c89d443a8fb0ce74f2ff7775",
   "OverridableProperties": {},
   "TemplateOriginalName": "b84e901362bb426a9025d47db36cd790",

@@ -1369,7 +1369,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Canvas2",
-      "ParentIndex": 9,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1711,7 +1711,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery4_1",
-      "ParentIndex": 7,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2610,7 +2610,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Header Component_30",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3102,7 +3102,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon12",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6549,7 +6549,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label7_11",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7655,7 +7655,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Side Bar_1",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7826,7 +7826,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Visit DatePicker",
-      "ParentIndex": 8,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8210,7 +8210,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Visit Search",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
