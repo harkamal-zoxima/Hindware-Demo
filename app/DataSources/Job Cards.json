@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crc2a_jobcard",
-    "MaxGetRowsCount": 500,
     "Name": "Job Cards",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

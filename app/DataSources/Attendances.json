@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crc2a_attendance",
-    "MaxGetRowsCount": 500,
     "Name": "Attendances",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
