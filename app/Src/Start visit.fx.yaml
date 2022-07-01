@@ -392,13 +392,8 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(31, 31, 31, 1)
                     HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-                    OnSelect: |-
-                        =Set(
-                            SentOtp,
-                            true
-                        );
-                        
-                        Gmail.SendEmailV2(
+                    OnSelect: |
+                        =Gmail.SendEmailV2(
                             ClickedVisit.Email,
                             {
                                 Subject: "Happy code or Sad code (Hindware)",
@@ -410,7 +405,16 @@
                                     0
                                 )
                             }
-                        )
+                        );
+                        Notify(
+                            "OTP has been sent to the email.",
+                            NotificationType.Success,
+                            1500
+                        );
+                        Set(
+                            SentOtp,
+                            true
+                        );
                     PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
                     PressedColor: =RGBA(31, 31, 31, 1)
                     PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
