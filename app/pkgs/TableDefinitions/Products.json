@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Products",
   "InstanceUrl": "https://orgf6d90589.crm8.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "crc2a_products",
-    "logicalName": "crc2a_product"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orgf6d90589.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('crc2a_product')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

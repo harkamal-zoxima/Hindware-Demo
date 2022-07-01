@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crc2a_learning",
-    "MaxGetRowsCount": 500,
     "Name": "Learnings",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

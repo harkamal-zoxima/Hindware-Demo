@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Learnings",
   "InstanceUrl": "https://orgf6d90589.crm8.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "crc2a_learnings",
-    "logicalName": "crc2a_learning"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orgf6d90589.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('crc2a_learning')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

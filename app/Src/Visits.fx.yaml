@@ -114,7 +114,7 @@
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     DisplayMode: |-
                         =If(
-                            ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date') || varAttendance = "done" || Not(IsBlank(ComboBox1.Selected)),
+                            ThisItem.'Status (crc2a_status)' = Status.Completed || !IsToday(ThisItem.Date) || varAttendance = "done",
                             DisplayMode.Disabled,
                             DisplayMode.Edit
                         )
