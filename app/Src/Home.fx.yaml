@@ -1187,7 +1187,7 @@
         Height: =1136
         ZIndex: =3
 
-    "'Bottom Navigation_1' As 'Bottom Navigation'":
+    mainbottomnav_3 As mainbottomnav:
         Y: =1056
         ZIndex: =4
 

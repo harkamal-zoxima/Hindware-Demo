@@ -38,7 +38,7 @@ mainbottomnav As CanvasComponent:
             },
             {
                 Title: "Learning Path",
-                Screen: 'All Orders',
+                Screen: 'Learning Path',
                 Icon: ListScrollWatchlist,
                 Active: false
             },

@@ -32,38 +32,6 @@
         Y: =12
         ZIndex: =2
 
-    "'Bottom Navigation_4' As 'Bottom Navigation'":
-        NavItems: |-
-            =Table( {
-                    Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
-                    //Title: Start,
-                    Screen: If(varAttendance= "start" , StartDay, varAttendance= "end" , 'End day', varAttendance= "done" , 'Day Ended' ),
-                
-                    Icon: CalendarBlank,
-                    Active: false
-                },
-                {
-                    Title: "Visits",
-                    Screen: Visits,
-                    Icon: Waypoint,
-                    Active: false
-                },
-                {
-                    Title: "Dashboard",
-                    Screen: Home,
-                    Icon: Waffle,
-                    Active: false
-                },
-                {
-                    Title: "Orders",
-                    Screen: 'All Orders',
-                    Icon: ShoppingCart,
-                    Active: true
-                }
-                )
-        Y: =1056
-        ZIndex: =3
-
     "'Side Bar_18' As 'Side Bar'":
         ZIndex: =4
 
@@ -163,4 +131,56 @@
             X: =285
             Y: =117
             ZIndex: =9
+
+    mainbottomnav_7 As mainbottomnav:
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Job Cards",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Learning Path",
+                    Screen: 'Learning Path',
+                    Icon: ListScrollWatchlist,
+                    Active: true
+                },
+                {
+                    Title: "Loyalty",
+                    Screen: 'All Orders',
+                    Icon: Currency,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =6
 

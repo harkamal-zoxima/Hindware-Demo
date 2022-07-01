@@ -461,38 +461,6 @@
                     Y: =488
                     ZIndex: =24
 
-    "'Bottom Navigation_15' As 'Bottom Navigation'":
-        NavItems: |-
-            =Table( {
-                    Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
-                    //Title: Start,
-                    Screen: If(varAttendance= "start" , StartDay, varAttendance= "end" , 'End day', varAttendance= "done" , 'Day Ended' ),
-                
-                    Icon: CalendarBlank,
-                    Active: false
-                },
-                {
-                    Title: "Visits",
-                    Screen: Visits,
-                    Icon: Waypoint,
-                    Active: true
-                },
-                {
-                    Title: "Dashboard",
-                    Screen: Home,
-                    Icon: Waffle,
-                    Active: false
-                },
-                {
-                    Title: "Orders",
-                    Screen: 'All Orders',
-                    Icon: ShoppingCart,
-                    Active: false
-                }
-                )
-        Y: =1056
-        ZIndex: =4
-
     "'Header Component_21' As 'Header Component_11'":
         Height: =108
         ScreenName: ="Job Execution"
@@ -518,6 +486,58 @@
         X: =18
         Y: =15
         ZIndex: =6
+
+    mainbottomnav_11 As mainbottomnav:
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Job Cards",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: true
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Learning Path",
+                    Screen: 'Learning Path',
+                    Icon: ListScrollWatchlist,
+                    Active: false
+                },
+                {
+                    Title: "Loyalty",
+                    Screen: 'All Orders',
+                    Icon: Currency,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =10
 
     Group31_1 As group:
         Height: =5

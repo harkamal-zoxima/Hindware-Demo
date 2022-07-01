@@ -1096,12 +1096,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637922561441009893",
+    "LastModifiedTimestamp": "637922575024336649",
     "Name": "mainbottomnav",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Table(\r\n    {\r\n        Title: If(\r\n            varAttendance = \"end\",\r\n            \"End\",\r\n            varAttendance = \"start\",\r\n            \"Start\",\r\n            varAttendance = \"done\",\r\n            \"Ended\"\r\n        ),\r\n        //Title: Start,\r\n        Screen: If(\r\n            varAttendance = \"start\",\r\n            StartDay,\r\n            varAttendance = \"end\",\r\n            'End day',\r\n            varAttendance = \"done\",\r\n            'Day Ended'\r\n        ),\r\n        Icon: CalendarBlank,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Job Cards\",\r\n        Screen: Visits,\r\n        Icon: Waypoint,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Dashboard\",\r\n        Screen: Home,\r\n        Icon: Waffle,\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Learning Path\",\r\n        Screen: 'All Orders',\r\n        Icon: ListScrollWatchlist,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Loyalty\",\r\n        Screen: 'All Orders',\r\n        Icon: Currency,\r\n        Active: false\r\n    }\r\n)",
+        "InvariantScript": "Table(\r\n    {\r\n        Title: If(\r\n            varAttendance = \"end\",\r\n            \"End\",\r\n            varAttendance = \"start\",\r\n            \"Start\",\r\n            varAttendance = \"done\",\r\n            \"Ended\"\r\n        ),\r\n        //Title: Start,\r\n        Screen: If(\r\n            varAttendance = \"start\",\r\n            StartDay,\r\n            varAttendance = \"end\",\r\n            'End day',\r\n            varAttendance = \"done\",\r\n            'Day Ended'\r\n        ),\r\n        Icon: CalendarBlank,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Job Cards\",\r\n        Screen: Visits,\r\n        Icon: Waypoint,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Dashboard\",\r\n        Screen: Home,\r\n        Icon: Waffle,\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Learning Path\",\r\n        Screen: 'Learning Path',\r\n        Icon: ListScrollWatchlist,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Loyalty\",\r\n        Screen: 'All Orders',\r\n        Icon: Currency,\r\n        Active: false\r\n    }\r\n)",
         "Property": "NavItems",
         "RuleProviderType": "System"
       },
@@ -1171,7 +1171,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637922561441009893",
+  "LastModifiedTimestamp": "637922575024336649",
   "Name": "f86b8485a18049de87a7f0f14d97e92b",
   "OverridableProperties": {},
   "TemplateOriginalName": "b84e901362bb426a9025d47db36cd790",
