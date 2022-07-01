@@ -16639,12 +16639,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect"
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect",
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -16658,7 +16658,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Rectangle7_13"
+                "type": "Screen1.Rectangle7_13"
               }
             }
           ],
@@ -16676,12 +16676,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect"
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect",
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -16695,7 +16695,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Rectangle7_13"
+                "type": "Screen1.Rectangle7_13"
               }
             }
           ],
@@ -16717,12 +16717,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect"
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect",
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -16736,7 +16736,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Rectangle7_13"
+                "type": "Screen1.Rectangle7_13"
               }
             }
           ],
@@ -16757,12 +16757,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect"
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect",
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -16776,7 +16776,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Rectangle7_13"
+                "type": "Screen1.Rectangle7_13"
               }
             }
           ],
@@ -16798,12 +16798,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect"
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Rectangle7_13.OnSelect",
+                  "fullyQualifiedName": "Screen1.Rectangle7_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -16817,7 +16817,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Rectangle7_13"
+                "type": "Screen1.Rectangle7_13"
               }
             }
           ],
@@ -35345,19 +35345,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Icon10_13.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.PenInput2_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Icon10_13.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.PenInput2_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Icon10_13"
+                "type": "Screen1.PenInput2_1"
               }
             }
           ],
@@ -35375,48 +35375,18 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Icon10_13.TabIndex"
+                  "fullyQualifiedName": "Screen1.PenInput2_1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.Icon10_13.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.Icon10_13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 15
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.PenInput2_1"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.PenInput2_1",
+                  "fullyQualifiedName": "Screen1.PenInput2_1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.PenInput2_1"
+                "type": "Screen1.PenInput2_1"
               }
             }
           ],
@@ -35434,19 +35404,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.PenInput2_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Icon10_13.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.PenInput2_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Icon10_13.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen1",
+                "type": "Screen1.Icon10_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 15
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Icon10_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Icon10_13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Canvas4.DataCard4.PenInput2_1"
+                "type": "Screen1.Icon10_13"
               }
             }
           ],
@@ -35477,6 +35477,36 @@
                 "member": "AccessibleLabel",
                 "module": "Screen1",
                 "type": "Screen1.Canvas4.DataCard4.Rating1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Canvas4.DataCard4.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.Canvas4.DataCard4.TextInput1"
               }
             }
           ],

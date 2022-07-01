@@ -15,56 +15,11 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =1446
+            Height: =1164
             Width: =Parent.Width
             X: =0
             Y: =0
             ZIndex: =1
-
-            Label9_11 As label:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                FontWeight: =FontWeight.Semibold
-                Height: =46
-                Size: =17
-                Text: ="Signature"
-                Width: =560
-                X: =40
-                Y: =434
-                ZIndex: =8
-
-            Button1_4 As button:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                Color: =RGBA(31, 31, 31, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(255, 200, 61, 1)
-                FocusedBorderColor: =ColorFade(Self.Fill, 75%)
-                FontWeight: =FontWeight.Semibold
-                Height: =41
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(31, 31, 31, 1)
-                HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-                OnSelect: =Set(VarCanvasOpen, true)
-                PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
-                PressedColor: =RGBA(31, 31, 31, 1)
-                PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =18
-                Text: ="Open Canvas"
-                Width: =227
-                X: =40
-                Y: =485
-                ZIndex: =9
 
             Group8_4 As group:
                 Height: =5
@@ -119,42 +74,6 @@
                     Y: =208
                     ZIndex: =5
 
-            Image2_4 As image:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledFill: =RGBA(0, 0, 0, 0)
-                FocusedBorderThickness: =4
-                Height: =345
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverFill: =RGBA(0, 0, 0, 0)
-                Image: =PenInput2_1.Image
-                PressedBorderColor: =RGBA(0, 0, 0, 0)
-                PressedFill: =RGBA(0, 0, 0, 0)
-                Visible: =If(IsBlank(PenInput2_1.Image), false, true)
-                Width: =253
-                X: =345
-                Y: =449
-                ZIndex: =16
-
-            Label9_15 As label:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                FontWeight: =FontWeight.Semibold
-                Height: =46
-                Size: =17
-                Text: ="OTP"
-                Width: =560
-                X: =45
-                Y: =830
-                ZIndex: =17
-
             Group22_1 As group:
                 Height: =5
                 Width: =5
@@ -205,98 +124,6 @@
                     X: =40
                     Y: =346
                     ZIndex: =7
-
-            Button1_6 As button:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                Color: =RGBA(31, 31, 31, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(255, 200, 61, 1)
-                FocusedBorderColor: =ColorFade(Self.Fill, 75%)
-                FontWeight: =FontWeight.Semibold
-                Height: =41
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(31, 31, 31, 1)
-                HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-                OnSelect: =Set(VarCanvasOpen, true)
-                PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
-                PressedColor: =RGBA(31, 31, 31, 1)
-                PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =18
-                Text: ="Send OTP"
-                Width: =227
-                X: =45
-                Y: =884
-                ZIndex: =18
-
-            Group31_1 As group:
-                Height: =5
-                Width: =5
-                X: =60
-                Y: =60
-                ZIndex: =18
-
-                Rectangle7_13 As rectangle:
-                    BorderColor: =RGBA(204, 204, 204, 1)
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =RGBA(237, 237, 237, 1)
-                    FocusedBorderThickness: =4
-                    Height: =989
-                    HoverFill: =RGBA(237, 237, 237, 1)
-                    OnSelect: |-
-                        =If(VarDialogOpen, Patch(
-                            Visits_1,
-                            Defaults(Visits_1),
-                            {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
-                            Customer: LookUp(Accounts, )}
-                        );
-                        )
-                    PressedFill: =RGBA(237, 237, 237, 1)
-                    Visible: =VarCanvasOpen
-                    Width: =550
-                    X: =45
-                    Y: =32
-                    ZIndex: =12
-
-                Icon10_13 As icon.Cancel:
-                    BorderColor: =RGBA(109, 109, 109, 1)
-                    Color: =RGBA(128, 128, 128, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(220, 220, 220, 1)
-                    DisabledFill: =RGBA(0, 0, 0, 0)
-                    FocusedBorderThickness: =4
-                    Height: =53
-                    HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Icon: =Icon.Cancel
-                    OnSelect: =Set(VarCanvasOpen, false)
-                    PressedBorderColor: =RGBA(0, 0, 0, 0)
-                    PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    Visible: =VarCanvasOpen
-                    Width: =37
-                    X: =543
-                    Y: =36
-                    ZIndex: =14
-
-                PenInput2_1 As inkControl:
-                    BorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
-                    BorderStyle: =BorderStyle.None
-                    Color: =RGBA(22, 22, 22, 1)
-                    Fill: =RGBA(255, 255, 255, 1)
-                    Height: =903
-                    Visible: =VarCanvasOpen
-                    Width: =519
-                    X: =61
-                    Y: =89
-                    ZIndex: =15
 
             Group8_5 As group:
                 Height: =5
@@ -376,7 +203,7 @@
                 Text: ="SUBMIT "
                 Width: =290
                 X: =175
-                Y: =1155
+                Y: =1031
                 ZIndex: =21
 
             Group32 As group:
@@ -399,8 +226,8 @@
                     Size: =17
                     Text: ="Customer Feedback"
                     Width: =560
-                    X: =38
-                    Y: =968
+                    X: =35
+                    Y: =562
                     ZIndex: =19
 
                 Rating1 As rating:
@@ -419,9 +246,220 @@
                     PressedFill: =Self.Fill
                     RatingFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                     Width: =297
-                    X: =40
-                    Y: =1022
+                    X: =37
+                    Y: =616
                     ZIndex: =20
+
+            Group33 As group:
+                Height: =5
+                Width: =5
+                X: =60
+                Y: =60
+                ZIndex: =22
+
+                Label9_11 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    FontWeight: =FontWeight.Semibold
+                    Height: =46
+                    Size: =17
+                    Text: ="Signature"
+                    Width: =560
+                    X: =40
+                    Y: =696
+                    ZIndex: =8
+
+                Button1_4 As button:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Color: =RGBA(31, 31, 31, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Fill: =RGBA(255, 200, 61, 1)
+                    FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =41
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(31, 31, 31, 1)
+                    HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                    OnSelect: =Set(VarCanvasOpen, true)
+                    PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                    PressedColor: =RGBA(31, 31, 31, 1)
+                    PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =18
+                    Text: ="Open Canvas"
+                    Width: =227
+                    X: =40
+                    Y: =747
+                    ZIndex: =9
+
+                Image2_4 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =176
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =PenInput2_1.Image
+                    ImageRotation: =ImageRotation.Rotate90
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Visible: =If(IsBlank(PenInput2_1.Image), false, true)
+                    Width: =323
+                    X: =159
+                    Y: =805
+                    ZIndex: =16
+
+            Group35 As group:
+                Height: =5
+                Width: =5
+                X: =60
+                Y: =60
+                ZIndex: =23
+
+                Label9_15 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    FontWeight: =FontWeight.Semibold
+                    Height: =46
+                    Size: =17
+                    Text: ="OTP"
+                    Width: =560
+                    X: =42
+                    Y: =430
+                    ZIndex: =17
+
+                Button1_6 As button:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Color: =RGBA(31, 31, 31, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Fill: =RGBA(255, 200, 61, 1)
+                    FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(31, 31, 31, 1)
+                    HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                    OnSelect: =Set(SentOtp, true)
+                    PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                    PressedColor: =RGBA(31, 31, 31, 1)
+                    PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =18
+                    Text: ="Send OTP"
+                    Width: =227
+                    X: =42
+                    Y: =484
+                    ZIndex: =18
+
+                TextInput1 As text:
+                    BorderColor: =RGBA(109, 109, 109, 1)
+                    BorderThickness: =2
+                    Color: =RGBA(255, 255, 255, 1)
+                    Default: =""
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Fill: =RGBA(31, 31, 31, 1)
+                    FocusedBorderThickness: =4
+                    Format: =TextFormat.Number
+                    Height: =50
+                    HintText: ="Enter OTP"
+                    HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(31, 31, 31, 1)
+                    PressedBorderColor: =RGBA(255, 200, 61, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(31, 31, 31, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =18
+                    Visible: =SentOtp
+                    Width: =214
+                    X: =298
+                    Y: =484
+                    ZIndex: =22
+
+            Group36 As group:
+                Height: =5
+                Width: =5
+                X: =60
+                Y: =60
+                ZIndex: =25
+
+                Button1_8 As button:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Color: =RGBA(31, 31, 31, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Fill: =RGBA(255, 200, 61, 1)
+                    FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(31, 31, 31, 1)
+                    HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                    OnSelect: =Set(SentOtp, true)
+                    PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                    PressedColor: =RGBA(31, 31, 31, 1)
+                    PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =18
+                    Text: =""
+                    Visible: =SentOtp
+                    Width: =50
+                    X: =525
+                    Y: =484
+                    ZIndex: =23
+
+                Icon2 As icon.Check:
+                    BorderColor: =RGBA(109, 109, 109, 1)
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =39
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Check
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Visible: =SentOtp
+                    Width: =46
+                    X: =529
+                    Y: =488
+                    ZIndex: =24
 
     "'Bottom Navigation_15' As 'Bottom Navigation'":
         NavItems: |-
@@ -480,4 +518,68 @@
         X: =18
         Y: =15
         ZIndex: =6
+
+    Group31_1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =852
+        ZIndex: =10
+
+        Rectangle7_13 As rectangle:
+            BorderColor: =RGBA(204, 204, 204, 1)
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(237, 237, 237, 1)
+            FocusedBorderThickness: =4
+            Height: =989
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: |-
+                =If(VarDialogOpen, Patch(
+                    Visits_1,
+                    Defaults(Visits_1),
+                    {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
+                    Customer: LookUp(Accounts, )}
+                );
+                )
+            PressedFill: =RGBA(237, 237, 237, 1)
+            Visible: =VarCanvasOpen
+            Width: =550
+            X: =45
+            Y: =74
+            ZIndex: =7
+
+        Icon10_13 As icon.Cancel:
+            BorderColor: =RGBA(109, 109, 109, 1)
+            Color: =RGBA(128, 128, 128, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =53
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Cancel
+            OnSelect: =Set(VarCanvasOpen, false)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =VarCanvasOpen
+            Width: =37
+            X: =543
+            Y: =82
+            ZIndex: =8
+
+        PenInput2_1 As inkControl:
+            BorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(22, 22, 22, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =928
+            Visible: =VarCanvasOpen
+            Width: =519
+            X: =61
+            Y: =135
+            ZIndex: =9
 
