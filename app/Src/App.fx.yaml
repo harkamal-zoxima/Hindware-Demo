@@ -1,0 +1,46 @@
+App As appinfo:
+    BackEnabled: =true
+    ConfirmExit: =true
+    ConfirmExitMessage: ="Do you want to exit?"
+    OnStart: |+
+        =//For Attendance Marking, Setting Variable (Start for "Not start day", end for "Started day but not ended", done for "started and ended your day"
+        If(
+            IsBlank(
+                LookUp(
+                    Attendances,
+                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                        Users,
+                        'Primary Email' = User().Email
+                    ).User
+                )
+            ),
+            Set(
+                varAttendance,
+                "start"
+            ),
+            IsBlank(
+                LookUp(
+                    Attendances,
+                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                        Users,
+                        'Primary Email' = User().Email
+                    ).User
+                ).'End Day Date and Time'
+            ),
+            Set(
+                varAttendance,
+                "end"
+            ),
+            Set(
+                varAttendance,
+                "done"
+            )
+        );
+        Set(
+            CurrentUserEmail,
+            User().Email
+        );
+        
+        
+    StartScreen: ='Start Screen'
+
