@@ -27,7 +27,7 @@
         Width: =514
         X: =63
         Y: =82
-        ZIndex: =5
+        ZIndex: =4
 
     Image1_22 As image:
         BorderColor: =RGBA(204, 204, 204, 1)
@@ -49,7 +49,7 @@
         Width: =152
         X: =244
         Y: =202
-        ZIndex: =6
+        ZIndex: =5
 
     Label3_56 As label:
         Align: =Align.Center
@@ -68,7 +68,7 @@
         Width: =313
         X: =164
         Y: =144
-        ZIndex: =7
+        ZIndex: =6
 
     Label3_57 As label:
         Align: =Align.Center
@@ -87,7 +87,7 @@
         Width: =328
         X: =156
         Y: =108
-        ZIndex: =8
+        ZIndex: =7
 
     Icon2_11 As icon.Bell:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -107,7 +107,7 @@
         Width: =33
         X: =592
         Y: =25
-        ZIndex: =9
+        ZIndex: =8
 
     Image1_23 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -131,10 +131,7 @@
         Width: =123
         X: =259
         Y: =29
-        ZIndex: =10
-
-    "'Side Bar_30' As 'Side Bar'":
-        ZIndex: =11
+        ZIndex: =9
 
     Button9 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -165,7 +162,7 @@
         Width: =360
         X: =146
         Y: =747
-        ZIndex: =13
+        ZIndex: =10
 
     EditBackdrop_1 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -179,7 +176,62 @@
         PressedFill: =RGBA(255, 200, 61, 1)
         Visible: =VarDialog
         Width: =640
-        ZIndex: =14
+        ZIndex: =11
+
+    mainbottomnav_1 As mainbottomnav:
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: true
+                },
+                {
+                    Title: "Job Cards",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Learning Path",
+                    Screen: 'All Orders',
+                    Icon: ListScrollWatchlist,
+                    Active: false
+                },
+                {
+                    Title: "Loyalty",
+                    Screen: 'All Orders',
+                    Icon: Currency,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =16
+
+    "'Side Bar_30' As 'Side Bar'":
+        ZIndex: =17
 
     Group4_1 As group:
         Height: =5
@@ -232,58 +284,6 @@
             Y: =457
             ZIndex: =2
 
-    mainbottomnav_1 As mainbottomnav:
-        NavItems: |-
-            =Table(
-                {
-                    Title: If(
-                        varAttendance = "end",
-                        "End",
-                        varAttendance = "start",
-                        "Start",
-                        varAttendance = "done",
-                        "Ended"
-                    ),
-                    //Title: Start,
-                    Screen: If(
-                        varAttendance = "start",
-                        StartDay,
-                        varAttendance = "end",
-                        'End day',
-                        varAttendance = "done",
-                        'Day Ended'
-                    ),
-                    Icon: CalendarBlank,
-                    Active: true
-                },
-                {
-                    Title: "Job Cards",
-                    Screen: Visits,
-                    Icon: Waypoint,
-                    Active: false
-                },
-                {
-                    Title: "Dashboard",
-                    Screen: Home,
-                    Icon: Waffle,
-                    Active: false
-                },
-                {
-                    Title: "Learning Path",
-                    Screen: 'All Orders',
-                    Icon: ListScrollWatchlist,
-                    Active: false
-                },
-                {
-                    Title: "Loyalty",
-                    Screen: 'All Orders',
-                    Icon: Currency,
-                    Active: false
-                }
-            )
-        Y: =1056
-        ZIndex: =19
-
     Group6_1 As group:
         Height: =5
         Width: =5
@@ -326,7 +326,7 @@
             Width: =550
             X: =45
             Y: =350
-            ZIndex: =15
+            ZIndex: =12
 
         Icon10_3 As icon.Cancel:
             BorderColor: =RGBA(109, 109, 109, 1)
@@ -348,7 +348,7 @@
             Width: =37
             X: =543
             Y: =363
-            ZIndex: =16
+            ZIndex: =13
 
         Button2_5 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -394,7 +394,7 @@
             Width: =137
             X: =252
             Y: =597
-            ZIndex: =17
+            ZIndex: =14
 
         Label7_3 As label:
             Align: =Align.Center
@@ -415,5 +415,5 @@
             Width: =488
             X: =75
             Y: =436
-            ZIndex: =18
+            ZIndex: =15
 
