@@ -82,27 +82,32 @@
                 Height: =540
                 Items: |-
                     =Table({Title:"Todays Job",
-                    Id:TodayJobCount},
+                    Id:TodayJobCount,
+                    Image:'today Jobs'
+                    },
                     {Title:"Job Executed",
-                    Id:JobExecutedCount},
+                    Id:JobExecutedCount,
+                    Image:'Job executed'},
                     {Title:"Best Execution",
-                    Id:TodayJobCount},
+                    Id:TodayJobCount,
+                    Image: 'Best fff'},
                     {Title:"Customer Feedback",
-                    Id:TodayJobCount}
+                    Id:TodayJobCount,
+                    Image: Feedback}
                     )
                 Layout: =Layout.Vertical
                 TemplatePadding: =0
                 TemplateSize: =263
                 WrapCount: =2
-                Y: =405
+                Y: =396
                 ZIndex: =48
 
                 HtmlText1_32 As htmlViewer:
                     Color: =RGBA(242, 242, 242, 1)
                     DisplayMode: =DisplayMode.View
-                    Height: =252
+                    Height: =263
                     HtmlText: |
-                        ="<div style='margin:10px;width:270px;height:220px;background-color:#;box-shadow:0 3px 6px 1px  #ccc; border-radius:50px'></div>"
+                        ="<div style='margin:10px;width:270px;height:220px;background-color:# ;box-shadow:0 7px 6px 7px  #ccc; border-radius:50px'></div>"
                     OnSelect: =Select(Parent)
                     Width: =320
                     ZIndex: =4
@@ -122,8 +127,8 @@
                     Size: =18
                     Text: =ThisItem.Title
                     Width: =267
-                    X: =16
-                    Y: =155
+                    X: =15
+                    Y: =160
                     ZIndex: =5
 
                 Label8 As label:
@@ -136,14 +141,33 @@
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
-                    Height: =172
+                    Height: =29
                     OnSelect: =Select(Parent)
-                    Size: =35
+                    Size: =21
                     Text: =ThisItem.Id
-                    Width: =267
-                    X: =16
-                    Y: =20
+                    Width: =53
+                    X: =122
+                    Y: =146
                     ZIndex: =6
+
+                Image2 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =110
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =ThisItem.Image
+                    OnSelect: =Select(Parent)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =178
+                    X: =71
+                    Y: =36
+                    ZIndex: =7
 
             Group9 As group:
                 Height: =5
@@ -439,21 +463,4 @@
     mainbottomnav_3 As mainbottomnav:
         Y: =1056
         ZIndex: =3
-
-    Label25 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =21
-        Text: =CountRows(Gallery5.AllItems)
-        Width: =560
-        X: =40
-        Y: =937
-        ZIndex: =4
 
