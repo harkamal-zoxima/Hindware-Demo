@@ -2083,7 +2083,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/04/2022 06:22:51",
+  "HeaderLastSavedDateTimeUTC": "07/04/2022 06:29:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "22cd26cf-3b27-43f8-b024-904678d2a50b": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/c2d31a5274f546a5bd353f1bf4246f5f\"",
@@ -2093,6 +2093,7 @@
   "LocalResourceFileNames": {
     "accept": "0001.png",
     "ad": "0002.png",
+    "Best execution": "8d27e430-6f37-4ead-af0a-e9612c48bdb2.png",
     "Best fff": "a7bcd2dc-23a5-43e9-b964-73be2fd8f728.png",
     "emp": "0003.jpg",
     "Feedback": "8d49c7c3-8c22-4eb2-97c8-2ff794cebbff.png",
@@ -2106,6 +2107,7 @@
   "LocalResourceRootPaths": {
     "accept": "https://docserverpwaprodcin.blob.core.windows.net/d1b08ccc-3a2f-426e-8b5f-9a8f0d15ef40-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=k5d2kMw40C79AzG9m09DM622dv26lWqsMYG5wQxfv5o%3D&spr=https&se=2022-07-05T05%3A33%3A14Z&sp=r",
     "ad": "https://docserverpwaprodcin.blob.core.windows.net/d1b08ccc-3a2f-426e-8b5f-9a8f0d15ef40-1/resource/Assets0Images00002.png?sv=2017-04-17&sr=b&sig=EeH7aHVB3DHMsdYhtMiBuRqpJUzcrw2w1RJvsAGNUco%3D&spr=https&se=2022-07-05T05%3A33%3A14Z&sp=r",
+    "Best execution": "https://docserverpwaprodcin.blob.core.windows.net/d1b08ccc-3a2f-426e-8b5f-9a8f0d15ef40-1/resource/80e3c599-fea9-4ae5-ac5c-cfff0d5ded54.png?sv=2017-04-17&sr=b&sig=vmzHs4HE5rA92xGuX6IpzKUpdWXXrShWy2nXfbrvIUE%3D&spr=https&se=2022-07-05T06%3A39%3A05Z&sp=r",
     "Best fff": "https://docserverpwaprodcin.blob.core.windows.net/d1b08ccc-3a2f-426e-8b5f-9a8f0d15ef40-1/resource/Assets0Images0a7bcd2dc-23a5-43e9-b964-73be2fd8f728.png?sv=2017-04-17&sr=b&sig=QHFuo7iDeVk1iUezXxbMnPwi%2BS673EY%2B90XAIMMLk%2Bs%3D&spr=https&se=2022-07-05T05%3A33%3A14Z&sp=r",
     "emp": "https://docserverpwaprodcin.blob.core.windows.net/d1b08ccc-3a2f-426e-8b5f-9a8f0d15ef40-1/resource/Assets0Images00003.jpg?sv=2017-04-17&sr=b&sig=iI%2B%2BER1xdn1rY0ZtpEiUvxAQiUinv6vdP%2Bqzx0vz6mY%3D&spr=https&se=2022-07-05T05%3A33%3A14Z&sp=r",
     "Feedback": "https://docserverpwaprodcin.blob.core.windows.net/d1b08ccc-3a2f-426e-8b5f-9a8f0d15ef40-1/resource/Assets0Images08d49c7c3-8c22-4eb2-97c8-2ff794cebbff.png?sv=2017-04-17&sr=b&sig=l%2F9i9nWUEJcyFt7K47Ids0nuESK3nBQYsDvPSIrZbkA%3D&spr=https&se=2022-07-05T05%3A33%3A14Z&sp=r",
@@ -5320,6 +5322,7 @@
   "ResourcesJsonIndices": {
     "Image-accept": 2,
     "Image-ad": 3,
+    "Image-Best execution": 13,
     "Image-Best fff": 9,
     "Image-emp": 4,
     "Image-Feedback": 10,

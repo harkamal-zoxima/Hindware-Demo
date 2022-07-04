@@ -127,7 +127,7 @@
                     Size: =18
                     Text: =ThisItem.Title
                     Width: =267
-                    X: =15
+                    X: =14
                     Y: =160
                     ZIndex: =5
 
@@ -142,13 +142,13 @@
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Bold
-                    Height: =103
+                    Height: =32
                     OnSelect: =Select(Parent)
                     Size: =21
                     Text: =ThisItem.Id
                     Width: =126
-                    X: =90
-                    Y: =104
+                    X: =84
+                    Y: =142
                     ZIndex: =6
 
                 Image2 As image:
@@ -158,16 +158,17 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =81
+                    Height: =104
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =ThisItem.Image
+                    ImagePosition: =ImagePosition.Fill
                     OnSelect: =Select(Parent)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
-                    Width: =133
-                    X: =93
-                    Y: =40
+                    Width: =104
+                    X: =95
+                    Y: =32
                     ZIndex: =7
 
             Group9 As group:

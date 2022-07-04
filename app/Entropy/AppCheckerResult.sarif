@@ -35107,6 +35107,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.Best execution"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Best execution",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Best execution",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 21
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.Label5_84.Visible"
                 }
               ],
