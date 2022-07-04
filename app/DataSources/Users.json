@@ -75,7 +75,10 @@
       "crc2a_crc2a_jobcard_Assignto_systemuser": "Job Cards (crc2a_crc2a_jobcard_Assignto_systemuser)",
       "crc2a_crc2a_learning_UploadedBy_systemuser": "Learnings (crc2a_crc2a_learning_UploadedBy_systemuser)",
       "crc2a_crc2a_userproductskillsetmapping_User_sys": "User & Product Skill Set Mappings (crc2a_crc2a_userproductskillsetmapping_User_sys)",
+      "crc2a_designation": "Designation",
+      "crc2a_SF": "SF",
       "crc2a_skillset": "Skill Set",
+      "crc2a_systemuser_SF_systemuser": "Users (crc2a_systemuser_SF_systemuser)",
       "createdby": "Created By",
       "createdby_connection": "Connections (createdby_connection)",
       "createdby_connection_role": "Connection Roles (createdby_connection_role)",
@@ -250,6 +253,10 @@
       "lk_crc2a_category_createdonbehalfby": "Categories (lk_crc2a_category_createdonbehalfby)",
       "lk_crc2a_category_modifiedby": "Categories (lk_crc2a_category_modifiedby)",
       "lk_crc2a_category_modifiedonbehalfby": "Categories (lk_crc2a_category_modifiedonbehalfby)",
+      "lk_crc2a_customer_createdby": "Customers (lk_crc2a_customer_createdby)",
+      "lk_crc2a_customer_createdonbehalfby": "Customers (lk_crc2a_customer_createdonbehalfby)",
+      "lk_crc2a_customer_modifiedby": "Customers (lk_crc2a_customer_modifiedby)",
+      "lk_crc2a_customer_modifiedonbehalfby": "Customers (lk_crc2a_customer_modifiedonbehalfby)",
       "lk_crc2a_jobcard_createdby": "Job Cards (lk_crc2a_jobcard_createdby)",
       "lk_crc2a_jobcard_createdonbehalfby": "Job Cards (lk_crc2a_jobcard_createdonbehalfby)",
       "lk_crc2a_jobcard_modifiedby": "Job Cards (lk_crc2a_jobcard_modifiedby)",
@@ -535,6 +542,10 @@
       "lk_msdyn_analysisresultdetail_createdonbehalfby": "Analysis Result Details (lk_msdyn_analysisresultdetail_createdonbehalfby)",
       "lk_msdyn_analysisresultdetail_modifiedby": "Analysis Result Details (lk_msdyn_analysisresultdetail_modifiedby)",
       "lk_msdyn_analysisresultdetail_modifiedonbehalfby": "Analysis Result Details (lk_msdyn_analysisresultdetail_modifiedonbehalfby)",
+      "lk_msdyn_appinsightsmetadata_createdby": "App Insights Metadatas (lk_msdyn_appinsightsmetadata_createdby)",
+      "lk_msdyn_appinsightsmetadata_createdonbehalfby": "App Insights Metadatas (lk_msdyn_appinsightsmetadata_createdonbehalfby)",
+      "lk_msdyn_appinsightsmetadata_modifiedby": "App Insights Metadatas (lk_msdyn_appinsightsmetadata_modifiedby)",
+      "lk_msdyn_appinsightsmetadata_modifiedonbehalfby": "App Insights Metadatas (lk_msdyn_appinsightsmetadata_modifiedonbehalfby)",
       "lk_msdyn_customcontrolextendedsettings_createdby": "CustomControl Extended Settings (lk_msdyn_customcontrolextendedsettings_createdby)",
       "lk_msdyn_customcontrolextendedsettings_createdonbehalfby": "CustomControl Extended Settings (lk_msdyn_customcontrolextendedsettings_createdonbehalfby)",
       "lk_msdyn_customcontrolextendedsettings_modifiedby": "CustomControl Extended Settings (lk_msdyn_customcontrolextendedsettings_modifiedby)",
@@ -547,6 +558,10 @@
       "lk_msdyn_dataflowrefreshhistory_createdonbehalfby": "DataflowRefreshHistories (lk_msdyn_dataflowrefreshhistory_createdonbehalfby)",
       "lk_msdyn_dataflowrefreshhistory_modifiedby": "DataflowRefreshHistories (lk_msdyn_dataflowrefreshhistory_modifiedby)",
       "lk_msdyn_dataflowrefreshhistory_modifiedonbehalfby": "DataflowRefreshHistories (lk_msdyn_dataflowrefreshhistory_modifiedonbehalfby)",
+      "lk_msdyn_entitylinkchatconfiguration_createdby": "Entity link chat configurations (lk_msdyn_entitylinkchatconfiguration_createdby)",
+      "lk_msdyn_entitylinkchatconfiguration_createdonbehalfby": "Entity link chat configurations (lk_msdyn_entitylinkchatconfiguration_createdonbehalfby)",
+      "lk_msdyn_entitylinkchatconfiguration_modifiedby": "Entity link chat configurations (lk_msdyn_entitylinkchatconfiguration_modifiedby)",
+      "lk_msdyn_entitylinkchatconfiguration_modifiedonbehalfby": "Entity link chat configurations (lk_msdyn_entitylinkchatconfiguration_modifiedonbehalfby)",
       "lk_msdyn_entityrefreshhistory_createdby": "EntityRefreshHistories (lk_msdyn_entityrefreshhistory_createdby)",
       "lk_msdyn_entityrefreshhistory_createdonbehalfby": "EntityRefreshHistories (lk_msdyn_entityrefreshhistory_createdonbehalfby)",
       "lk_msdyn_entityrefreshhistory_modifiedby": "EntityRefreshHistories (lk_msdyn_entityrefreshhistory_modifiedby)",
@@ -1174,6 +1189,7 @@
       "user_crc2a_areausermapping": "Area & User Mappings (user_crc2a_areausermapping)",
       "user_crc2a_attendance": "Attendances (user_crc2a_attendance)",
       "user_crc2a_category": "Categories (user_crc2a_category)",
+      "user_crc2a_customer": "Customers (user_crc2a_customer)",
       "user_crc2a_jobcard": "Job Cards (user_crc2a_jobcard)",
       "user_crc2a_jobcardinfoexecution": "Job Card Info Executions (user_crc2a_jobcardinfoexecution)",
       "user_crc2a_learning": "Learnings (user_crc2a_learning)",
@@ -1223,6 +1239,7 @@
       "user_msdyn_customcontrolextendedsettings": "CustomControl Extended Settings (user_msdyn_customcontrolextendedsettings)",
       "user_msdyn_dataflow": "Dataflows (user_msdyn_dataflow)",
       "user_msdyn_dataflowrefreshhistory": "DataflowRefreshHistories (user_msdyn_dataflowrefreshhistory)",
+      "user_msdyn_entitylinkchatconfiguration": "Entity link chat configurations (user_msdyn_entitylinkchatconfiguration)",
       "user_msdyn_entityrefreshhistory": "EntityRefreshHistories (user_msdyn_entityrefreshhistory)",
       "user_msdyn_federatedarticle": "Knowledge Federated Articles (user_msdyn_federatedarticle)",
       "user_msdyn_healthcare_feedback": "Healthcare Feedback (user_msdyn_healthcare_feedback)",
@@ -1326,6 +1343,27 @@
       "f79ad170-ae03-4f4c-8132-d4aa08520a0c": "Associated Record Team Members",
       "fcf02d37-524a-4332-8ac7-497ef6b739f9": "Users: Influenced Deals That We Won"
     }
+  },
+  {
+    "DisplayName": "Designation",
+    "Name": "crc2a_designation",
+    "OptionSetInfoNameMapping": {
+      "355980000": "Management",
+      "355980001": "Plumber/Carpenter",
+      "355980002": "SF"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc2a_designation",
+        "OptionSetReferenceEntityName": "Users"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc2a_designation",
+    "RelatedEntityName": "Users",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Skill Sets",

@@ -92,7 +92,7 @@
                     Id:TodayJobCount,
                     Image: 'Best fff'},
                     {Title:"Customer Feedback",
-                    Id:TodayJobCount,
+                    Id:'Cfb',
                     Image: Feedback}
                     )
                 Layout: =Layout.Vertical
@@ -141,13 +141,13 @@
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
-                    Height: =29
+                    Height: =103
                     OnSelect: =Select(Parent)
                     Size: =21
                     Text: =ThisItem.Id
-                    Width: =53
-                    X: =122
-                    Y: =146
+                    Width: =126
+                    X: =156
+                    Y: =109
                     ZIndex: =6
 
                 Image2 As image:

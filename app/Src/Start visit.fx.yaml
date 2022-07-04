@@ -60,7 +60,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 191, 0, 1)
-                    Default: =LookUp('Job Cards', ID = ClickedVisit.ID).Product.crc2a_productname
+                    Default: =LookUp('Job Cards', ID = ClickedVisit.ID).Product.'Product Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)

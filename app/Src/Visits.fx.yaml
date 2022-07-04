@@ -387,7 +387,7 @@
                         FontWeight: =FontWeight.Bold
                         Height: =25
                         OnSelect: =Select(Parent)
-                        Text: =ThisItem.Product.crc2a_productname
+                        Text: =ThisItem.Product.'Product Name'
                         Width: =395
                         X: =185
                         Y: =75

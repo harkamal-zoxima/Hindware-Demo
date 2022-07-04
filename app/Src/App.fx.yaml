@@ -43,8 +43,10 @@ App As appinfo:
         
         //Set(TodayJobs,CountRows(Filter('Job Cards',Date=Today()));
         //Set(TodayJobCount,CountRows(Filter('Job Cards', Date = Today()&& 'Assign to'.'Primary Email'=User().Email)));
-        Set(JobExecutedCount,CountRows(Filter('Job Cards', 'Status (crc2a_status)' = Status.Started&& 'Assign to'.'Primary Email'=User().Email)));
-        Set(BestExecution,CountRows(Filter('Job Card Info Executions', 'Customer Feedback'>=3 )));
+        Set(TodayJobCount,CountRows(Filter('Job Cards', Date = Today() && Owner=LookUp(Users,'Primary Email'=User().Email))));
+        Set(JobExecutedCount,CountRows(Filter('Job Cards', 'Status (crc2a_status)' = Status.Started&& Owner = LookUp(Users,'Primary Email' = User().Email))));
+        Set(BestExecution,CountRows(Filter('Job Card Info Executions', 'Customer Feedback'>3 && Owner = LookUp(Users,'Primary Email' = User().Email))));
+        Set(Cfb,CountRows(Filter('Job Card Info Executions','Customer Feedback' && Owner = LookUp(Users,'Primary Email' = User().Email))));
         
         
     StartScreen: ='Start Screen'
