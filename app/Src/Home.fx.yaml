@@ -89,7 +89,7 @@
                     Id:JobExecutedCount,
                     Image:'Job executed'},
                     {Title:"Best Execution",
-                    Id:TodayJobCount,
+                    Id:BestExecution,
                     Image: 'Best fff'},
                     {Title:"Customer Feedback",
                     Id:'Cfb',
@@ -141,13 +141,14 @@
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Bold
                     Height: =103
                     OnSelect: =Select(Parent)
                     Size: =21
                     Text: =ThisItem.Id
                     Width: =126
-                    X: =156
-                    Y: =109
+                    X: =90
+                    Y: =104
                     ZIndex: =6
 
                 Image2 As image:
@@ -157,16 +158,16 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =110
+                    Height: =81
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =ThisItem.Image
                     OnSelect: =Select(Parent)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
-                    Width: =178
-                    X: =71
-                    Y: =36
+                    Width: =133
+                    X: =93
+                    Y: =40
                     ZIndex: =7
 
             Group9 As group:

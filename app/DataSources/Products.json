@@ -10,6 +10,7 @@
     "Name": "Products",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "crc2a_crc2a_claimsheet_Product_crc2a_product": "Claim Sheets",
       "crc2a_crc2a_jobcard_Product_crc2a_product": "Job Cards",
       "crc2a_crc2a_learning_Product_crc2a_product": "Learnings",
       "crc2a_crc2a_pricelist_Product_crc2a_product": "Price Lists",

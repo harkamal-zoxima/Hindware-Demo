@@ -304,7 +304,7 @@
                 },
                 "region": {
                   "charLength": 44,
-                  "charOffset": 1281,
+                  "charOffset": 1284,
                   "snippet": {
                     "text": "LookUp(Users,'Primary Email' = User().Email)"
                   }
@@ -344,7 +344,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1279,
+                  "charOffset": 1282,
                   "snippet": {
                     "text": "="
                   }
@@ -384,7 +384,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1270,
+                  "charOffset": 1273,
                   "snippet": {
                     "text": "&&"
                   }
@@ -424,7 +424,7 @@
                 },
                 "region": {
                   "charLength": 44,
-                  "charOffset": 1427,
+                  "charOffset": 1430,
                   "snippet": {
                     "text": "LookUp(Users,'Primary Email' = User().Email)"
                   }
@@ -464,7 +464,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1425,
+                  "charOffset": 1428,
                   "snippet": {
                     "text": "="
                   }
@@ -504,7 +504,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1416,
+                  "charOffset": 1419,
                   "snippet": {
                     "text": "&&"
                   }
@@ -544,7 +544,7 @@
                 },
                 "region": {
                   "charLength": 44,
-                  "charOffset": 1560,
+                  "charOffset": 1563,
                   "snippet": {
                     "text": "LookUp(Users,'Primary Email' = User().Email)"
                   }
@@ -584,7 +584,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1558,
+                  "charOffset": 1561,
                   "snippet": {
                     "text": "="
                   }
@@ -624,7 +624,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1549,
+                  "charOffset": 1552,
                   "snippet": {
                     "text": "&&"
                   }
@@ -34741,36 +34741,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 15
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.BestExecution"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.BestExecution",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "BestExecution",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 20
         },
         {
           "locations": [
